@@ -3,8 +3,8 @@ import WorkPage from "./pages/WorkPage";
 import ProfilePage from "./pages/ProfilePage";
 import "./font/stylesheet.css";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-const router = createBrowserRouter([
+import { createHashRouter, RouterProvider } from "react-router-dom";
+const router = createHashRouter([
   {
     path: "/",
     element: <HomePage />,
