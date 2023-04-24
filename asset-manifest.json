@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brandendaniel.github.io/static/css/main.89af73a0.css",
-    "main.js": "/brandendaniel.github.io/static/js/main.1f82f2a8.js",
+    "main.js": "/brandendaniel.github.io/static/js/main.e2896b9c.js",
     "static/js/787.47675a74.chunk.js": "/brandendaniel.github.io/static/js/787.47675a74.chunk.js",
     "static/media/kader-home.png": "/brandendaniel.github.io/static/media/kader-home.989496ac399805197e75.png",
     "static/media/kader-about.png": "/brandendaniel.github.io/static/media/kader-about.6df5560656c19346b8ab.png",
@@ -111,11 +111,11 @@
     "static/media/perfectcottonlogo.png": "/brandendaniel.github.io/static/media/perfectcottonlogo.6cf97d1580b0b5702762.png",
     "index.html": "/brandendaniel.github.io/index.html",
     "main.89af73a0.css.map": "/brandendaniel.github.io/static/css/main.89af73a0.css.map",
-    "main.1f82f2a8.js.map": "/brandendaniel.github.io/static/js/main.1f82f2a8.js.map",
+    "main.e2896b9c.js.map": "/brandendaniel.github.io/static/js/main.e2896b9c.js.map",
     "787.47675a74.chunk.js.map": "/brandendaniel.github.io/static/js/787.47675a74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89af73a0.css",
-    "static/js/main.1f82f2a8.js"
+    "static/js/main.e2896b9c.js"
   ]
 }
