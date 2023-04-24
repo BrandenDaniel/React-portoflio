@@ -1,5 +1,6 @@
 {
-  "name": "web-portfolio",
+  "homepage": "https://brandendaniel.github.io/brandendaniel.github.io",
+  "name": "brandendaniel.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
