@@ -1,0 +1,40 @@
+:root {
+  --background-color: #fff;
+  --background-color-inverse: #161e40;
+  --body-color: #161e40;
+  --body-color-inverse: #fff;
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+}
+
+[data-theme="dark"] {
+  --background-color: #161e40 !important;
+  --background-color-inverse: #fff !important;
+  --body-color: #fff !important;
+  --body-color-inverse: #161e40 !important;
+  --bold: 600;
+}
+
+* {
+  font-family: "Neue Haas Unica", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    margin: 0;
+  }
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--background-color);
+  color: var(--body-color);
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+}

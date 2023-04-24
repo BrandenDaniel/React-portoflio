@@ -1,0 +1,174 @@
+@import "variables.scss";
+
+.home,
+.work {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 35px 0;
+
+    * {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      line-height: 1rem;
+      color: var(--body-color);
+      text-decoration: none;
+      font-weight: 500;
+      position: relative;
+      overflow: hidden;
+      width: 110px;
+      margin-top: -15px;
+
+      svg {
+        font-size: 16px;
+        transform: rotate(315deg);
+        position: absolute;
+        inset: auto auto auto 95px;
+      }
+
+      &:hover {
+        color: #dd2476;
+
+        svg {
+          color: #dd2476;
+          animation: arrow-hover 0.4s;
+        }
+      }
+    }
+  }
+
+  &__selected-work,
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h3 {
+      margin-bottom: -15px;
+      font-size: 1.4rem;
+    }
+
+    .selected-work {
+      display: none;
+
+      &:nth-of-type(-n + 3) {
+        display: grid;
+      }
+    }
+  }
+}
+
+.selected-work {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+  &__thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-radius: 10px;
+
+    img {
+      max-height: 100%;
+      max-width: 80%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h4 {
+      font-size: 1.25rem;
+      line-height: 1.25rem;
+    }
+
+    p {
+      line-height: 1.4rem;
+    }
+
+    a {
+      color: var(--body-color);
+    }
+  }
+
+  &--myBlindSpots .selected-work__thumbnail {
+    background: #212666;
+  }
+  &--boxti .selected-work__thumbnail {
+    background: #9dd3d1;
+  }
+  &--annieP .selected-work__thumbnail {
+    background: #ff0050;
+  }
+}
+
+@keyframes arrow-hover {
+  0% {
+    inset: 0 auto auto 95px;
+  }
+
+  49% {
+    inset: -17px auto auto 112px;
+  }
+
+  50% {
+    inset: 17px auto auto 112px;
+  }
+
+  51% {
+    inset: 17px auto auto 78px;
+  }
+
+  100% {
+    inset: 0 auto auto 95px;
+  }
+}
+
+@media (min-width: $sm) {
+  .home {
+    &__header {
+      margin: 75px 0 45px 0;
+      gap: 40px;
+
+      h1 {
+        font-size: 2.55rem;
+        font-weight: 500;
+        line-height: 1.15;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+      }
+
+      a {
+        margin-top: -25px;
+      }
+    }
+  }
+
+  .selected-work {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px;
+  }
+}

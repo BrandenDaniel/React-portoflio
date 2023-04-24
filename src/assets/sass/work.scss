@@ -1,0 +1,9 @@
+.work {
+  &__list {
+    margin-top: 20px;
+
+    .selected-work {
+      display: grid !important;
+    }
+  }
+}
