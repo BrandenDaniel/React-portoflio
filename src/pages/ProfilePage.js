@@ -3,7 +3,7 @@ import Nav from "../component/Nav";
 
 function ProfilePage() {
   return (
-    <div className="profile container">
+    <div className="profile">
       <Nav />
       hi
     </div>

@@ -23,7 +23,7 @@ const router = createHashRouter([
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <RouterProvider router={router} />
       <ThemeToggler />
     </div>

@@ -4,10 +4,11 @@ import React, { useState } from "react";
 import "../assets/sass/nav.scss";
 
 function ThemeToggler() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
-    console.log(theme);
+
+    document.querySelector("body").setAttribute("data-theme", theme);
   };
 
   return (
@@ -17,7 +18,7 @@ function ThemeToggler() {
       <input
         type="checkbox"
         onChange={toggleTheme}
-        checked={theme === "dark"}
+        checked={theme === "light"}
       />
     </span>
   );

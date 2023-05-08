@@ -7,10 +7,11 @@ function WorkPage() {
   const projectList = [...workObj];
 
   return (
-    <div className="work container">
+    <div className="work">
       <Nav />
 
       <div className="work__list">
+        <h1>Work</h1>
         {projectList.map(function (prop) {
           return (
             <WorkItem

@@ -11,7 +11,7 @@ function Home() {
   const projectList = [...workObj];
 
   return (
-    <div className="home container">
+    <div className="home">
       <Nav />
 
       <div className="home__header">
@@ -22,8 +22,8 @@ function Home() {
 
         <h2>
           👋 Hey I'm Branden, a design-focused web developer based in Melbourne.
-          I am currently working at SafeCode - building intuitive web portals
-          for over 80,000 users.
+          I am currently working at SafeCode, building intuitive web portals for
+          over 100,000 users.
         </h2>
         <Link to="/profile">
           View Profile <FontAwesomeIcon icon={faArrowRightLong} />

@@ -1,6 +1,11 @@
 .work {
   &__list {
-    margin-top: 20px;
+    margin-top: 40px;
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: -5px;
+    }
 
     .selected-work {
       display: grid !important;
