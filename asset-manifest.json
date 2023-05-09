@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0445d4d.css",
-    "main.js": "/static/js/main.ed334b01.js",
+    "main.css": "/static/css/main.c8daf385.css",
+    "main.js": "/static/js/main.60ecf038.js",
     "static/js/787.47675a74.chunk.js": "/static/js/787.47675a74.chunk.js",
     "static/media/kader-home.png": "/static/media/kader-home.989496ac399805197e75.png",
     "static/media/kader-about.png": "/static/media/kader-about.6df5560656c19346b8ab.png",
@@ -110,12 +110,12 @@
     "static/media/mskims.png": "/static/media/mskims.82e205ebf34f55a2cff8.png",
     "static/media/perfectcottonlogo.png": "/static/media/perfectcottonlogo.6cf97d1580b0b5702762.png",
     "index.html": "/index.html",
-    "main.f0445d4d.css.map": "/static/css/main.f0445d4d.css.map",
-    "main.ed334b01.js.map": "/static/js/main.ed334b01.js.map",
+    "main.c8daf385.css.map": "/static/css/main.c8daf385.css.map",
+    "main.60ecf038.js.map": "/static/js/main.60ecf038.js.map",
     "787.47675a74.chunk.js.map": "/static/js/787.47675a74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0445d4d.css",
-    "static/js/main.ed334b01.js"
+    "static/css/main.c8daf385.css",
+    "static/js/main.60ecf038.js"
   ]
 }
