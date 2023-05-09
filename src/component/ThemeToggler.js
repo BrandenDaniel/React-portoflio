@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import "../assets/sass/nav.scss";
 
 function ThemeToggler() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+    setTheme((curr) => (curr === "dark" ? "light" : "dark"));
 
     document.querySelector("body").setAttribute("data-theme", theme);
   };

@@ -6,7 +6,7 @@ function Nav() {
     <div className="nav">
       <div className="nav__links">
         <Link className="nav__logo" to="/">
-          BN.
+          BN<span>.</span>
         </Link>
 
         <div>

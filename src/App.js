@@ -3,7 +3,7 @@ import WorkPage from "./pages/WorkPage";
 import ProfilePage from "./pages/ProfilePage";
 import ThemeToggler from "./component/ThemeToggler";
 
-import "./font/stylesheet.css";
+import "./assets/font/stylesheet.css";
 
 import { createHashRouter, RouterProvider } from "react-router-dom";
 const router = createHashRouter([

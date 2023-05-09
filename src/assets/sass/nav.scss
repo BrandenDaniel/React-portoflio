@@ -1,9 +1,17 @@
+@import "variables.scss";
+
 .nav {
   justify-content: space-between;
   padding-right: 60px;
 
   &__logo {
     font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 25px;
+
+    span {
+      color: $hot-pink;
+    }
   }
 
   &__links {
@@ -11,10 +19,14 @@
     justify-content: space-between;
     align-items: center;
     gap: 5px;
+    height: 25px;
 
     a {
       text-decoration: none;
+      line-height: 25px;
+      height: 25px;
       color: var(--body-color);
+      font-size: 16px;
     }
 
     > div {
