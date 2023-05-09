@@ -1,9 +1,6 @@
 @import "variables.scss";
 
 .profile {
-  &__content {
-  }
-
   &__bio {
     img {
       width: 25%;
@@ -39,7 +36,7 @@
   .profile {
     &__bio {
       img {
-        margin: 75px auto 40px auto;
+        margin: 65px auto 40px auto;
       }
     }
   }
