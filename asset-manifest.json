@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ee12368.css",
-    "main.js": "/static/js/main.6a8c4f5c.js",
+    "main.css": "/static/css/main.0d872507.css",
+    "main.js": "/static/js/main.fb297244.js",
     "static/js/787.47675a74.chunk.js": "/static/js/787.47675a74.chunk.js",
     "static/media/kader-home.png": "/static/media/kader-home.989496ac399805197e75.png",
     "static/media/kader-about.png": "/static/media/kader-about.6df5560656c19346b8ab.png",
@@ -105,18 +105,18 @@
     "static/media/NeueHaasUnica-Bold.woff2": "/static/media/NeueHaasUnica-Bold.8b1c4b87c33d99c65b77.woff2",
     "static/media/NeueHaasUnica-ExtraBlack.woff2": "/static/media/NeueHaasUnica-ExtraBlack.a3ebe786ebd71734659d.woff2",
     "static/media/NeueHaasUnica-Thin.woff2": "/static/media/NeueHaasUnica-Thin.e07c58d49cfdaefe9a3c.woff2",
+    "static/media/my-blind-spots.png": "/static/media/my-blind-spots.9b07f022b0631c291fdc.png",
     "static/media/kader-boot-co.png": "/static/media/kader-boot-co.24bb555d21f7d18e5cb6.png",
-    "static/media/my-blind-spots.png": "/static/media/my-blind-spots.d24352125d37ac852e6c.png",
     "static/media/psmlogo.png": "/static/media/psmlogo.4b6a31b0aa52fa9aeaf3.png",
     "static/media/mskims.png": "/static/media/mskims.82e205ebf34f55a2cff8.png",
     "static/media/perfectcottonlogo.png": "/static/media/perfectcottonlogo.6cf97d1580b0b5702762.png",
     "index.html": "/index.html",
-    "main.7ee12368.css.map": "/static/css/main.7ee12368.css.map",
-    "main.6a8c4f5c.js.map": "/static/js/main.6a8c4f5c.js.map",
+    "main.0d872507.css.map": "/static/css/main.0d872507.css.map",
+    "main.fb297244.js.map": "/static/js/main.fb297244.js.map",
     "787.47675a74.chunk.js.map": "/static/js/787.47675a74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ee12368.css",
-    "static/js/main.6a8c4f5c.js"
+    "static/css/main.0d872507.css",
+    "static/js/main.fb297244.js"
   ]
 }
