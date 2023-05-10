@@ -11,8 +11,10 @@ const WorkItem = (props) => {
         />
       </div>
       <div className="selected-work__content">
-        <h4>{props.title}</h4>
-        <p>{props.description}</p>
+        <div>
+          <h4>{props.title}</h4>
+          <p>{props.description}</p>
+        </div>
         <Link to="/">Find out more</Link>
       </div>
     </div>

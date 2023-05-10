@@ -27,6 +27,28 @@
       height: 25px;
       color: var(--body-color);
       font-size: 16px;
+      position: relative;
+
+      &::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -1px;
+        background-color: $hot-pink;
+        transition: 0.15s ease-in-out;
+        display: block;
+      }
+
+      &:hover {
+        color: $hot-pink;
+
+        &::after {
+          width: 93%;
+        }
+      }
     }
 
     > div {

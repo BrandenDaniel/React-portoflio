@@ -30,9 +30,8 @@ function Home() {
         </Link>
       </div>
 
+      <h3>Selected work</h3>
       <div className="home__selected-work">
-        <h3>Selected work</h3>
-
         {projectList.map(function (prop) {
           return (
             <WorkItem
