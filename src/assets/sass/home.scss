@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "animations.scss";
 
 .fade-up {
   animation: fade-up 0.5s;
@@ -21,12 +22,14 @@
       font-size: 1.9rem;
       font-weight: 500;
       line-height: 1.25;
+      animation: fade-up 0.5s;
     }
 
     h2 {
       font-size: 1.1rem;
       line-height: 1.5;
       font-weight: 400;
+      animation: fade-up 0.75s;
     }
 
     a {
@@ -41,6 +44,7 @@
       overflow: hidden;
       width: 110px;
       margin-top: -15px;
+      animation: fade-up 1s;
 
       svg {
         font-size: 16px;
@@ -170,28 +174,6 @@
   }
 }
 
-@keyframes arrow-hover {
-  0% {
-    inset: 0 auto auto 95px;
-  }
-
-  49% {
-    inset: -17px auto auto 112px;
-  }
-
-  50% {
-    inset: 17px auto auto 112px;
-  }
-
-  51% {
-    inset: 17px auto auto 78px;
-  }
-
-  100% {
-    inset: 0 auto auto 95px;
-  }
-}
-
 @media (min-width: $sm) {
   .home {
     &__header {
@@ -211,17 +193,5 @@
   .selected-work {
     grid-template-columns: 1fr 1fr !important;
     gap: 20px;
-  }
-}
-
-@keyframes fade-up {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
   }
 }
