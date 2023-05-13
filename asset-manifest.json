@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.884cd3cb.css",
-    "main.js": "/static/js/main.c73161dd.js",
+    "main.css": "/static/css/main.e6aabc7f.css",
+    "main.js": "/static/js/main.10c95676.js",
     "static/js/787.47675a74.chunk.js": "/static/js/787.47675a74.chunk.js",
     "static/media/kader-home.png": "/static/media/kader-home.989496ac399805197e75.png",
     "static/media/kader-about.png": "/static/media/kader-about.6df5560656c19346b8ab.png",
@@ -20,6 +20,7 @@
     "static/media/myblindspots-screen.png": "/static/media/myblindspots-screen.029d37a9674aa0d1275e.png",
     "static/media/lms-6.png": "/static/media/lms-6.17ea20f63ceb596ef1ea.png",
     "static/media/kader-shop.png": "/static/media/kader-shop.2d62d6d1e0bff50294a1.png",
+    "static/media/CV.pdf": "/static/media/CV.9c0678c010e9b204198f.pdf",
     "static/media/psm-products.png": "/static/media/psm-products.a39273db288c74f6a5f8.png",
     "static/media/Branden-fontend-dev.pdf": "/static/media/Branden-fontend-dev.db80838412977059cdc0.pdf",
     "static/media/lms-admin-1.png": "/static/media/lms-admin-1.b59042aba2b37f6d411f.png",
@@ -111,12 +112,12 @@
     "static/media/mskims.png": "/static/media/mskims.82e205ebf34f55a2cff8.png",
     "static/media/perfectcottonlogo.png": "/static/media/perfectcottonlogo.6cf97d1580b0b5702762.png",
     "index.html": "/index.html",
-    "main.884cd3cb.css.map": "/static/css/main.884cd3cb.css.map",
-    "main.c73161dd.js.map": "/static/js/main.c73161dd.js.map",
+    "main.e6aabc7f.css.map": "/static/css/main.e6aabc7f.css.map",
+    "main.10c95676.js.map": "/static/js/main.10c95676.js.map",
     "787.47675a74.chunk.js.map": "/static/js/787.47675a74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.884cd3cb.css",
-    "static/js/main.c73161dd.js"
+    "static/css/main.e6aabc7f.css",
+    "static/js/main.10c95676.js"
   ]
 }
