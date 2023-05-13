@@ -9,6 +9,10 @@
 
     .selected-work {
       display: grid !important;
+
+      &__content {
+        padding-top: 0;
+      }
     }
   }
 }

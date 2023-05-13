@@ -1,10 +1,6 @@
 @import "variables.scss";
 @import "animations.scss";
 
-.fade-up {
-  animation: fade-up 0.5s;
-}
-
 .home,
 .work {
   &__header {
@@ -12,7 +8,6 @@
     flex-direction: column;
     gap: 30px;
     margin: 60px 0 30px 0;
-    animation: fade-up 0.5s;
 
     * {
       margin: 0;
@@ -33,34 +28,8 @@
     }
 
     a {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      line-height: 1rem;
-      color: var(--body-color);
-      text-decoration: none;
-      font-weight: 500;
-      position: relative;
-      overflow: hidden;
-      width: 110px;
       margin-top: -15px;
       animation: fade-up 1s;
-
-      svg {
-        font-size: 16px;
-        transform: rotate(315deg);
-        position: absolute;
-        inset: auto auto auto 95px;
-      }
-
-      &:hover {
-        color: $hot-pink;
-
-        svg {
-          color: $hot-pink;
-          animation: arrow-hover 0.4s;
-        }
-      }
     }
   }
 
@@ -72,24 +41,15 @@
     font-weight: 500;
     margin: 0 0 20px 0;
     color: $hot-pink;
-
-    // &::after {
-    //   content: "";
-    //   height: 3px;
-    //   width: 46px;
-    //   background: $hot-pink;
-    //   display: block;
-    //   position: absolute;
-    //   right: 0px;
-    //   bottom: -6px;
-    // }
+    animation: fade-up 1.25s;
   }
 
   &__selected-work,
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 35px;
+    animation: fade-up 1.25s;
 
     .selected-work {
       display: none;
@@ -98,9 +58,20 @@
         display: grid;
       }
     }
+
+    > a {
+      margin: 10px auto 0 auto;
+      color: #fff;
+      text-align: center;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
 
+//Workpage work list inherits styles from here
 .selected-work {
   display: grid;
   grid-template-columns: 1fr;
@@ -110,7 +81,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 170px;
+    height: 25vh;
     border-radius: 10px;
 
     img {
@@ -135,7 +106,6 @@
     h4 {
       font-size: 1.1rem;
       line-height: 1;
-      // font-weight: 400;
     }
 
     p {
@@ -147,35 +117,36 @@
     }
   }
 
-  &--myBlindSpots .selected-work__thumbnail {
+  &--my-blind-spots .selected-work__thumbnail {
     background: #212666;
   }
   &--boxti .selected-work__thumbnail {
     background: #9dd3d1;
   }
-  &--annieP .selected-work__thumbnail {
+  &--annie-pirotta .selected-work__thumbnail {
     background: #ff0050;
   }
 
-  &--KBC .selected-work__thumbnail {
+  &--kader-boot-co .selected-work__thumbnail {
     background: #fe6847;
   }
 
-  &--allWest .selected-work__thumbnail {
+  &--all-west-engineering .selected-work__thumbnail {
     background: #1c1f33;
   }
 
-  &--perfectCotton .selected-work__thumbnail {
+  &--perfect-cotton .selected-work__thumbnail {
     background: #fff;
   }
 
-  &--PSM .selected-work__thumbnail {
+  &--print-strategy-management .selected-work__thumbnail {
     background: #c7edf7;
   }
 }
 
 @media (min-width: $sm) {
-  .home {
+  .home,
+  .work {
     &__header {
       margin: 75px 0 45px 0;
       gap: 40px;
@@ -188,10 +159,23 @@
         font-size: 1.25rem;
       }
     }
+
+    &__selected-work,
+    &__list {
+      gap: 20px !important;
+    }
   }
 
   .selected-work {
     grid-template-columns: 1fr 1fr !important;
     gap: 20px;
+
+    &__thumbnail {
+      height: 170px;
+    }
+
+    &__content {
+      padding: 12px 0 !important;
+    }
   }
 }

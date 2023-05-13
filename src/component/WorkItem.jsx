@@ -1,5 +1,7 @@
 import "../assets/sass/work.scss";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const WorkItem = (props) => {
   return (
@@ -15,7 +17,10 @@ const WorkItem = (props) => {
           <h4>{props.title}</h4>
           <p>{props.description}</p>
         </div>
-        <Link to="/">Find out more</Link>
+        <Link to={`/${props.pathname}`} className="arrow-hover">
+          Read more
+          <FontAwesomeIcon icon={faArrowRightLong} />
+        </Link>
       </div>
     </div>
   );

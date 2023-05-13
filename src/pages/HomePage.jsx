@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
-import "../assets/sass/base.scss";
 import "../assets/sass/home.scss";
-import Nav from "../component/Nav";
 import WorkItem from "../component/WorkItem";
 import { workObj } from "../project-data/data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,8 +10,6 @@ function Home() {
 
   return (
     <div className="home">
-      <Nav />
-
       <div className="home__header">
         <h1>
           A front-end web developer whose passion lies in transforming
@@ -21,11 +17,12 @@ function Home() {
         </h1>
 
         <h2>
-          👋 Hey I'm Branden, a design-focused web developer based in Melbourne.
-          I am currently working at SafeCode, building intuitive web portals for
-          over 100,000 users.
+          👋 Hey I'm Branden, a design-focused web developer located in
+          Melbourne. I specialise in creating intuitive web sites/portals and
+          I'm currently employed at SafeCode, where I develop user-friendly
+          interfaces for a large user base of over 100,000 individuals.
         </h2>
-        <Link to="/profile">
+        <Link to="/profile" className="arrow-hover">
           View Profile <FontAwesomeIcon icon={faArrowRightLong} />
         </Link>
       </div>
@@ -39,10 +36,14 @@ function Home() {
               thumbnail={prop.thumbnail}
               id={prop.id}
               description={prop.desc}
+              pathname={prop.id}
               key={prop.id}
             />
           );
         })}
+        <Link to="/work" className="underline-hover">
+          Check out the rest
+        </Link>
       </div>
     </div>
   );

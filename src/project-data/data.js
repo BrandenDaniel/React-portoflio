@@ -2,7 +2,7 @@ export const workObj = [
   {
     title: "My Blind Spots",
     thumbnail: "my-blind-spots.png",
-    id: "myBlindSpots",
+    id: "my-blind-spots",
     desc: "Web development for a client's business that caters for the mentally challenged.",
     snapshot: ["myblindspots-screen.png"],
   },
@@ -16,21 +16,21 @@ export const workObj = [
   {
     title: "Annie Pirotta",
     thumbnail: "annie-pirotta.png",
-    id: "annieP",
+    id: "annie-pirotta",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
     snapshot: ["anniepirotta-home.png", "anniepirotta-sym.png"],
   },
   {
     title: "Kader Boot Co.",
     thumbnail: "kader-boot-co.png",
-    id: "KBC",
+    id: "kader-boot-co",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
     snapshot: ["kader-home.png", "kader-shop.png", "kader-about.png"],
   },
   {
     title: "All West Engineering",
     thumbnail: "all-west-eng.png",
-    id: "allWest",
+    id: "all-west-engineering",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
     snapshot: [
       "lms-1.png",
@@ -44,14 +44,14 @@ export const workObj = [
   {
     title: "Perfect Cotton",
     thumbnail: "perfectcottonlogo.png",
-    id: "perfectCotton",
+    id: "perfect-cotton",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
     snapshot: ["perfectcotton-home.png", "perfectcotton-shop.png"],
   },
   {
     title: "Print Strategy Management",
     thumbnail: "psmlogo.png",
-    id: "PSM",
+    id: "print-strategy-management",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
     snapshot: ["psm-home.png", "psm-products.png", "psm-about.png"],
   },

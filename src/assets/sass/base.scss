@@ -19,7 +19,7 @@
 * {
   font-family: "Neue Haas Unica", sans-serif;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 
   &::before,
   &::after {
@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  max-width: 625px;
+  max-width: 630px;
   margin: 0 auto;
   padding: 20px;
   position: relative;

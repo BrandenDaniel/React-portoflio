@@ -2,7 +2,6 @@
 
 .nav {
   justify-content: space-between;
-  padding-right: 60px;
 
   &__logo {
     font-weight: 500 !important;
@@ -29,24 +28,9 @@
       font-size: 16px;
       position: relative;
 
-      &::after {
-        content: "";
-        width: 0;
-        height: 2px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: -1px;
-        background-color: $hot-pink;
-        transition: 0.15s ease-in-out;
-        display: block;
-      }
-
       &:hover {
-        color: $hot-pink;
-
         &::after {
-          width: 93%;
+          width: 93% !important;
         }
       }
     }
@@ -60,9 +44,6 @@
 }
 
 #themeToggle {
-  position: absolute;
-  top: 20px;
-  right: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,7 +52,7 @@
   background-color: #161e40;
   border-radius: 999px;
   padding: 0 7px;
-  margin-left: 5px;
+  position: relative;
 
   &:has(input:checked) {
     &::before {

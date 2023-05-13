@@ -1,5 +1,3 @@
-import React from "react";
-import Nav from "../component/Nav";
 import WorkItem from "../component/WorkItem";
 import { workObj } from "../project-data/data";
 
@@ -8,8 +6,6 @@ function WorkPage() {
 
   return (
     <div className="work">
-      <Nav />
-
       <div className="work__list">
         <h1>Work</h1>
         {projectList.map(function (prop) {
@@ -19,6 +15,7 @@ function WorkPage() {
               thumbnail={prop.thumbnail}
               id={prop.id}
               description={prop.desc}
+              pathname={prop.id}
               key={prop.id}
             />
           );
