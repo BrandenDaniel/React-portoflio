@@ -41,9 +41,7 @@ function Home() {
             />
           );
         })}
-        <Link to="/work" className="underline-hover">
-          Check out the rest
-        </Link>
+        <Link to="/work">Check out the rest</Link>
       </div>
     </div>
   );
