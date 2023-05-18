@@ -96,22 +96,23 @@
 
     &__legend {
       display: flex;
-      flex-wrap: wrap;
-      gap: 5px 10px;
-      margin: 0 0 5px 0;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px 10px;
 
       span {
         @include flex-center;
         align-items: baseline !important;
         line-height: 1;
         font-size: 16px;
-        gap: 0 5px;
+        gap: 0 6px;
 
         &::before {
           display: block;
           content: "";
-          height: 9px;
-          width: 9px;
+          height: 11px;
+          width: 11px;
+          line-height: 10px;
           border-radius: 50%;
         }
 
@@ -142,16 +143,16 @@
       flex-wrap: wrap;
       gap: 6px;
       max-width: 250px;
-      margin-top: -10px;
+      // margin-top: -5px;
 
       span {
         @include flex-center;
+        align-items: baseline;
         background-color: $hot-pink;
         color: #fff;
-        line-height: 0px !important;
+        line-height: 1;
         font-size: 14px;
-        padding: 0 5px;
-        height: 24px;
+        padding: 5px;
         border-radius: 5px;
       }
 
@@ -169,7 +170,7 @@
 @media (min-width: $sm) {
   .profile {
     &__footer {
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: auto min-content;
     }
 
     &__stack {

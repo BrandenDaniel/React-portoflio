@@ -35,7 +35,7 @@ function Home() {
               title={prop.title}
               thumbnail={prop.thumbnail}
               id={prop.id}
-              description={prop.desc}
+              description={prop.shortDesc}
               pathname={prop.id}
               key={prop.id}
             />

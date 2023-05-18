@@ -12,7 +12,7 @@ const WorkItem = (props) => {
           alt={props.title}
         />
       </div>
-      <div className="selected-work__content">
+      <Link to={`/${props.pathname}`} className="selected-work__content">
         <div>
           <h4>{props.title}</h4>
           <p>{props.description}</p>
@@ -21,7 +21,7 @@ const WorkItem = (props) => {
           Read more
           <FontAwesomeIcon icon={faArrowRightLong} />
         </Link>
-      </div>
+      </Link>
     </div>
   );
 };

@@ -17,9 +17,9 @@ function Nav() {
       document.body.scrollTop > 55 ||
       document.documentElement.scrollTop > 55
     ) {
-      document.querySelector(".nav").classList.add("nav--scroll");
+      document.querySelector(".nav").classList.add("nav--scroll-active");
     } else {
-      document.querySelector(".nav").classList.remove("nav--scroll");
+      document.querySelector(".nav").classList.remove("nav--scroll-active");
     }
   };
   window.onscroll = function () {

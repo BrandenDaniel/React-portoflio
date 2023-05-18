@@ -47,7 +47,7 @@ function ProfilePage() {
             <div class="profile__experience__body">
               <div>
                 <h3>
-                  Safecode <span>[2022 - present]</span>
+                  SafeCode <span>[2022 - present]</span>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,9 +83,9 @@ function ProfilePage() {
           <div className="profile__stack">
             <h2>Current tech stack</h2>
             <div className="profile__stack__legend">
-              <span>competent</span>
-              <span>moderate</span>
-              <span>novice/early stages</span>
+              <span>Competent</span>
+              <span>Moderate</span>
+              <span>Novice/Early stages</span>
             </div>
             <div className="profile__stack__items">
               <span class="competent">HTML</span>

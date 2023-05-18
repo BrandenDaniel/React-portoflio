@@ -96,6 +96,19 @@
     flex-direction: column;
     gap: 12px;
     justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      a {
+        color: $hot-pink;
+
+        svg {
+          color: $hot-pink;
+          animation: arrow-hover 400ms;
+        }
+      }
+    }
 
     > div {
       display: flex;
