@@ -11,6 +11,21 @@ function Nav() {
 
     document.querySelector("body").setAttribute("data-theme", theme);
   };
+
+  const scrollFunction = () => {
+    if (
+      document.body.scrollTop > 55 ||
+      document.documentElement.scrollTop > 55
+    ) {
+      document.querySelector(".nav").classList.add("nav--scroll");
+    } else {
+      document.querySelector(".nav").classList.remove("nav--scroll");
+    }
+  };
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
   return (
     <div className="nav">
       <div className="nav__links">

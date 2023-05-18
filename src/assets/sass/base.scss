@@ -39,4 +39,8 @@ body {
   margin: 0 auto;
   padding: 20px;
   position: relative;
+
+  &:has(.nav--scroll) {
+    margin-top: 25px;
+  }
 }

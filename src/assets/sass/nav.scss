@@ -3,6 +3,18 @@
 .nav {
   justify-content: space-between;
 
+  &--scroll {
+    position: fixed;
+    margin: 0 auto;
+    inset: 15px 15px auto 15px;
+    max-width: 590px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    border-radius: 15px;
+    backdrop-filter: blur(7px);
+    animation: nav-fade-in 0.5s;
+  }
+
   &__logo {
     font-weight: 500 !important;
     font-size: 20px !important;
