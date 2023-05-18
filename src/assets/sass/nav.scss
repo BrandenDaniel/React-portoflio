@@ -8,13 +8,13 @@
     margin: 0 auto;
     inset: 15px 15px auto 15px;
     max-width: 560px;
-    background: rgb(22, 30, 64, 0.6);
-    padding: 15px;
+    background: var(--nav-bg);
+    padding: 17px;
     border-radius: 15px;
     backdrop-filter: blur(7px);
     animation: nav-fade-in 0.4s;
     box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
-    border: 1px solid var(--nav-bg);
+    border: 1px solid rgb(255, 255, 255, 0.3);
     z-index: 1;
 
     a {
@@ -35,7 +35,7 @@
   &__links {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     gap: 5px;
     height: 25px;
 
@@ -56,8 +56,8 @@
 
     > div {
       display: flex;
-      align-items: center;
-      gap: 10px;
+      align-items: baseline;
+      gap: 12px;
     }
   }
 }

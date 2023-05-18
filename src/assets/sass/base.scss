@@ -6,7 +6,7 @@
   --sm: 576px;
   --md: 768px;
   --lg: 992px;
-  --nav-bg: rgb(22, 30, 64, 0.35);
+  --nav-bg: rgb(22, 30, 64, 0.6);
 }
 
 [data-theme="dark"] {
@@ -15,7 +15,6 @@
   --body-color: #fff !important;
   --body-color-inverse: #161e40 !important;
   --bold: 600;
-  --nav-bg: rgb(255, 255, 255, 0.35);
 }
 
 * {
