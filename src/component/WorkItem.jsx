@@ -17,10 +17,10 @@ const WorkItem = (props) => {
           <h4>{props.title}</h4>
           <p>{props.description}</p>
         </div>
-        <Link to={`/${props.pathname}`} className="arrow-hover">
+        <span className="arrow-hover">
           Read more
           <FontAwesomeIcon icon={faArrowRightLong} />
-        </Link>
+        </span>
       </Link>
     </div>
   );

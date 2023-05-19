@@ -1,8 +1,12 @@
+const fed = "front-end developer";
+
 export const workObj = [
   {
     title: "Print Strategy Management",
     thumbnail: "psmlogo.png",
     id: "print-strategy-management",
+    role: fed,
+    year: "2022",
     shortDesc:
       "Web development for a client's business that caters for the mentally challenged.",
     longDesc:
@@ -13,6 +17,8 @@ export const workObj = [
     title: "Kader Boot Co.",
     thumbnail: "kader-boot-co.png",
     id: "kader-boot-co",
+    role: fed,
+    year: "2022",
     shortDesc:
       "Web development for a client's business that caters for the mentally challenged.",
     longDesc:
@@ -23,6 +29,8 @@ export const workObj = [
     title: "Annie Pirotta",
     thumbnail: "annie-pirotta.png",
     id: "annie-pirotta",
+    role: fed,
+    year: "2022",
     shortDesc:
       "Web development for a client's business that caters for the mentally challenged.",
     longDesc:
@@ -33,6 +41,8 @@ export const workObj = [
     title: "My Blind Spots",
     thumbnail: "my-blind-spots.png",
     id: "my-blind-spots",
+    role: fed,
+    year: "2022",
     shortDesc:
       "Web development for a client's business that caters for the mentally challenged.",
     longDesc:
@@ -43,6 +53,8 @@ export const workObj = [
     title: "Boxti",
     thumbnail: "boxtilogo.png",
     id: "boxti",
+    role: fed,
+    year: "2022",
     shortDesc:
       "Web development for a client's business that caters for the mentally challenged.",
     longDesc:
@@ -53,6 +65,8 @@ export const workObj = [
     title: "All West Engineering",
     thumbnail: "all-west-eng.png",
     id: "all-west-engineering",
+    role: fed,
+    year: "2022",
     shortDesc:
       "Web development for a client's business that caters for the mentally challenged.",
     longDesc:
@@ -70,6 +84,8 @@ export const workObj = [
     title: "Perfect Cotton",
     thumbnail: "perfectcottonlogo.png",
     id: "perfect-cotton",
+    role: fed,
+    year: "2022",
     shortDesc:
       "Web development for a client's business that caters for the mentally challenged.",
     longDesc:

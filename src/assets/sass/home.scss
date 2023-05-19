@@ -22,7 +22,7 @@
 
     h2 {
       font-size: 1.1rem;
-      line-height: 1.5;
+      line-height: 1.55;
       font-weight: 400;
       animation: fade-up 0.75s;
     }
@@ -85,8 +85,8 @@
     border-radius: 10px;
 
     img {
-      max-height: 60%;
-      max-width: 60%;
+      max-height: 65%;
+      max-width: 65%;
       object-fit: cover;
     }
   }
@@ -100,7 +100,7 @@
     text-decoration: none;
 
     &:hover {
-      a {
+      span {
         color: $hot-pink;
 
         svg {
@@ -169,7 +169,7 @@
       }
 
       h2 {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
       }
     }
 

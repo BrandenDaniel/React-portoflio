@@ -4,8 +4,16 @@
 
 .profile {
   &__bio {
-    border-bottom: 1px solid var(--body-color);
     animation: fade-up 1s;
+
+    &::after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 100%;
+      background-color: var(--body-color);
+      opacity: 0.35;
+    }
 
     img {
       width: 25%;
@@ -169,6 +177,13 @@
 
 @media (min-width: $sm) {
   .profile {
+    // &__bio {
+    //   h1,
+    //   p {
+    //     font-size: 1.15rem !important;
+    //   }
+    // }
+
     &__footer {
       grid-template-columns: auto min-content;
     }
