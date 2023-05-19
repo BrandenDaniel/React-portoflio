@@ -8,6 +8,12 @@ function WorkPage() {
     <div className="work">
       <div className="work__list">
         <h1>Work</h1>
+
+        <p>
+          Here are a few of my favourites - a list of real client projects I
+          worked on in the past 4 years.
+        </p>
+
         {projectList.map(function (prop) {
           return (
             <WorkItem
