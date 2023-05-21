@@ -67,11 +67,15 @@
   }
 
   &__experience {
-    padding-right: 10px;
-
     &__body {
       @include flex-column-start;
-      gap: 25px;
+      gap: 15px;
+
+      > div {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 15px 17px;
+        border-radius: 10px;
+      }
     }
 
     h2 {
@@ -81,19 +85,23 @@
     h3 {
       font-size: 1.1rem;
       line-height: 1;
-      margin: 0 0 5px 0;
+      margin: 0 0 10px 0;
+      // color: $hot-pink;
 
       span {
         font-weight: normal;
         font-size: 14px;
         opacity: 0.8;
         margin: 0 0 0 3px;
+        color: var(--body-color);
       }
     }
 
     p {
-      line-height: 1.5;
-      font-size: 1.1rem;
+      line-height: 1.45;
+      font-size: 1rem;
+      opacity: 0.8;
+      // text-align: justify;
     }
   }
 
@@ -190,6 +198,10 @@
 
     &__stack {
       order: 0;
+    }
+
+    &__experience {
+      padding-right: 15px;
     }
   }
 }

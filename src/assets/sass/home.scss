@@ -16,13 +16,13 @@
     h1 {
       font-size: 1.9rem;
       font-weight: 500;
-      line-height: 1.25;
+      line-height: 1.2;
       animation: fade-up 0.5s;
     }
 
     h2 {
       font-size: 1.1rem;
-      line-height: 1.55;
+      line-height: 1.5;
       font-weight: 400;
       animation: fade-up 0.75s;
     }
@@ -122,7 +122,7 @@
     }
 
     p {
-      line-height: 1.4rem;
+      line-height: 1.5rem;
     }
 
     a {
@@ -145,7 +145,7 @@
   }
 
   &--all-west-engineering .selected-work__thumbnail {
-    background: #f55424;
+    background: #ff6a3d;
   }
 
   &--perfect-cotton .selected-work__thumbnail {
@@ -169,7 +169,7 @@
       }
 
       h2 {
-        font-size: 1.2rem;
+        // font-size: 1.2rem;
       }
     }
 

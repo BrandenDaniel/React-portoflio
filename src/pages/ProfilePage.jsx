@@ -26,9 +26,8 @@ function ProfilePage() {
           <p>
             I specialise in CSS, and I absolutely love it. The process of
             transforming intricate designs into stylesheets keeps me up at
-            night. I enjoy tackling complicated layouts and seamlessly bringing
-            a web designer's vision to life, creating a functional and
-            eye-catching front-end.
+            night. I enjoy tackling complicated layouts and seamlessly bring a
+            web designer's vision to life.
           </p>
 
           <p>
@@ -55,9 +54,11 @@ function ProfilePage() {
                   SafeCode <span>[2022 - present]</span>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellendus dolores aut sunt perferendis quo tenetur
-                  praesentium sed modi culpa optio.
+                  SafeCode is a subsidiary of the LeasePLUS group, specialising
+                  in the development of leasing and salary packaging interfaces
+                  for individuals and companies. With a user base of over
+                  100,000, SafeCode serves a wide range of users all over
+                  Australia.
                 </p>
               </div>
 
@@ -66,9 +67,10 @@ function ProfilePage() {
                   Arcadian Digital <span>[2019 - 2020]</span>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellendus dolores aut sunt perferendis quo tenetur
-                  praesentium sed modi culpa optio.
+                  A bespoke digital and marketing agency that tailor high
+                  quality solutions to organisations of all sizes. During my
+                  time there, I had the pleasure of working with extremely
+                  talented engineers, despite the short duration of my tenure.
                 </p>
               </div>
 
@@ -77,9 +79,10 @@ function ProfilePage() {
                   Bebble <span>[2018 - 2019]</span>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellendus dolores aut sunt perferendis quo tenetur
-                  praesentium sed modi culpa optio.
+                  A small digital agency located in west Melbourne. With a team
+                  of inhouse designers and developers - most work was done on
+                  top of wordpress. Our clients were small business owners
+                  expanding their e-commerce and online presence.
                 </p>
               </div>
             </div>
