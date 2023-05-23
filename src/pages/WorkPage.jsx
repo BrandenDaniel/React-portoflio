@@ -11,7 +11,7 @@ function WorkPage() {
 
         <p>
           Here are a few of my favourites - a list of real client projects I
-          worked on in the past 4 years.
+          worked on in the past four years.
         </p>
 
         {projectList.map(function (prop) {
