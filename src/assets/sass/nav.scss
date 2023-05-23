@@ -21,6 +21,14 @@
     a {
       color: #fff !important;
     }
+
+    #themeToggle {
+      border: 1px solid #fff !important;
+
+      &::before {
+        border: 1px solid #fff;
+      }
+    }
   }
 
   &__logo {
@@ -57,7 +65,7 @@
 
     > div {
       display: flex;
-      align-items: baseline;
+      align-items: center;
       gap: 12px;
     }
   }
@@ -67,20 +75,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 24px;
-  width: 45px;
-  background-color: #161e40;
+  height: 22px;
+  width: 40px;
+  background-color: transparent;
   border-radius: 999px;
   padding: 0 7px;
   position: relative;
+  border: 1px solid var(--body-color);
 
   &:has(input:checked) {
     &::before {
-      background-color: #161e40;
-      left: calc(100% - 22px);
+      left: calc(100% - 18px);
+      background-color: transparent;
+      border-color: var(--body-color);
     }
-
-    background-color: #fff;
 
     svg,
     .material-symbols-outlined {
@@ -94,15 +102,17 @@
     height: 13px;
     color: #fff;
     @include flex-center;
+    display: none;
   }
 
   &::before {
     content: "";
     display: block;
-    height: 20px;
-    width: 20px;
+    height: 13px;
+    width: 13px;
     border-radius: 50%;
-    background: #fff;
+    border: 1px solid var(--body-color);
+    background-color: transparent;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
