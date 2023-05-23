@@ -1,6 +1,4 @@
 import "../assets/sass/nav.scss";
-import { faMoon } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
@@ -41,8 +39,6 @@ function Nav() {
             Work
           </Link>
           <span id="themeToggle">
-            <FontAwesomeIcon icon={faMoon} />
-            <span className="material-symbols-outlined">light_mode</span>
             <input
               type="checkbox"
               onChange={toggleTheme}

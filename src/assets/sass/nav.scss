@@ -44,14 +44,13 @@
   &__links {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     gap: 5px;
-    height: 25px;
+    height: 22px;
 
     a {
       text-decoration: none;
-      line-height: 25px;
-      height: 25px;
+      line-height: 1;
       color: var(--body-color);
       font-size: 16px;
       position: relative;
@@ -82,27 +81,19 @@
   padding: 0 7px;
   position: relative;
   border: 1px solid var(--body-color);
+  margin-left: 5px;
 
   &:has(input:checked) {
     &::before {
       left: calc(100% - 18px);
-      background-color: transparent;
-      border-color: var(--body-color);
+      background-color: $hot-pink;
+      border-color: $hot-pink;
     }
 
     svg,
     .material-symbols-outlined {
       color: #161e40;
     }
-  }
-
-  svg,
-  .material-symbols-outlined {
-    font-size: 13px;
-    height: 13px;
-    color: #fff;
-    @include flex-center;
-    display: none;
   }
 
   &::before {
@@ -116,7 +107,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 2px;
+    left: 3px;
     transition: 0.2s ease-in-out;
   }
 
