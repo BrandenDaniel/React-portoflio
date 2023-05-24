@@ -1,7 +1,7 @@
 import Work from "../component/Work";
 
 function AllWestEngineering() {
-  return <Work index={5} />;
+  return <Work index={6} />;
 }
 
 export default AllWestEngineering;

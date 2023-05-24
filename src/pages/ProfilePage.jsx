@@ -103,7 +103,7 @@ function ProfilePage() {
               <span class="moderate">React</span>
               <span class="moderate">JavaScript</span>
               <span class="novice">TypeScript</span>
-              <span class="novice">Redux</span>
+              {/* <span class="novice">Redux</span> */}
             </div>
             <a
               href={CV}

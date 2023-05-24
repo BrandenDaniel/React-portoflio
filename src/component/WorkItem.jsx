@@ -8,7 +8,7 @@ const WorkItem = (props) => {
     <div className={`selected-work selected-work--${props.id}`}>
       <div className="selected-work__thumbnail">
         <img
-          src={require(`../assets/images/${props.thumbnail}`)}
+          src={require(`../assets/images/work-logos/${props.thumbnail}`)}
           alt={props.title}
         />
       </div>

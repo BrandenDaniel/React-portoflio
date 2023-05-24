@@ -71,15 +71,18 @@
         margin: -5px;
       }
     }
+
+    &__gallery__mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
   }
 }
 
 @media (min-width: $sm) {
   .work {
     &-page {
-      &__info {
-        // flex-direction: row;
-      }
       &__gallery {
         gap: 20px 0;
         img {

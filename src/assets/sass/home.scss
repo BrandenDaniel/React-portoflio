@@ -129,7 +129,9 @@
       color: var(--body-color);
     }
   }
-
+  &--my-sal-pack .selected-work__thumbnail {
+    background: #005b99;
+  }
   &--my-blind-spots .selected-work__thumbnail {
     background: #212666;
   }
@@ -166,10 +168,6 @@
 
       h1 {
         font-size: 2.45rem;
-      }
-
-      h2 {
-        // font-size: 1.2rem;
       }
     }
 

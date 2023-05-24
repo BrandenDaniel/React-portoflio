@@ -22,8 +22,24 @@ function Work(props) {
 
       <div className="work-page__gallery">
         {project.snapshot.map(function (src) {
-          return <img src={require(`../assets/images/${src}`)} alt="" />;
+          return (
+            <img
+              src={require(`../assets/images/work-snapshots/${src}`)}
+              alt=""
+            />
+          );
         })}
+
+        <div className="work-page__gallery__mobile">
+          {project.snapshotMobile.map(function (src) {
+            return (
+              <img
+                src={require(`../assets/images/work-snapshots/${src}`)}
+                alt=""
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

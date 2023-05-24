@@ -2,7 +2,8 @@
 @import "mixins.scss";
 
 .nav {
-  justify-content: space-between;
+  position: relative;
+  @include flex-between;
 
   &--scroll-active {
     position: fixed;
@@ -23,6 +24,7 @@
     }
 
     #themeToggle {
+      right: 17px;
       border: 1px solid rgba(255, 255, 255, 0.5) !important;
 
       &::before {
@@ -34,7 +36,6 @@
   &__logo {
     font-weight: 500 !important;
     font-size: 20px !important;
-    line-height: 25px;
 
     span {
       color: $hot-pink;
@@ -47,10 +48,10 @@
     align-items: center;
     gap: 5px;
     height: 22px;
+    width: 100%;
 
     a {
       text-decoration: none;
-      line-height: 1;
       color: var(--body-color);
       font-size: 16px;
       position: relative;
@@ -66,11 +67,16 @@
       display: flex;
       align-items: center;
       gap: 12px;
+      padding-right: 52px;
     }
   }
 }
 
 #themeToggle {
+  position: absolute;
+  @include pos-y-center;
+  right: 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +85,6 @@
   background-color: transparent;
   border-radius: 12px;
   padding: 0 7px;
-  position: relative;
   border: 1px solid var(--toggle-border);
   margin-left: 5px;
 

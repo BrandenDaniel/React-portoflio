@@ -162,14 +162,12 @@
       // margin-top: -5px;
 
       span {
-        @include flex-center;
-        align-items: baseline;
         background-color: $hot-pink;
         color: #fff;
-        line-height: 1;
         font-size: 14px;
-        padding: 5px;
+        padding: 3px 6px;
         border-radius: 5px;
+        @include flex-center;
       }
 
       .moderate {
@@ -185,15 +183,8 @@
 
 @media (min-width: $sm) {
   .profile {
-    // &__bio {
-    //   h1,
-    //   p {
-    //     font-size: 1.15rem !important;
-    //   }
-    // }
-
     &__footer {
-      grid-template-columns: auto min-content;
+      grid-template-columns: auto 177px;
     }
 
     &__stack {
