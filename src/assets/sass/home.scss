@@ -76,7 +76,10 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
-
+  transition: 400ms ease;
+  padding: 0;
+  border-radius: 12px;
+  margin: 0;
   &__thumbnail {
     display: flex;
     align-items: center;
@@ -85,8 +88,9 @@
     border-radius: 10px;
 
     img {
-      max-height: 65%;
-      max-width: 65%;
+      max-height: 120px;
+      max-width: 185px;
+      width: 100%;
       object-fit: cover;
     }
   }
@@ -106,6 +110,7 @@
         svg {
           color: $hot-pink;
           animation: arrow-hover 400ms;
+          animation-delay: 400ms;
         }
       }
     }
@@ -187,6 +192,17 @@
 
     &__content {
       padding: 12px 0 !important;
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .selected-work {
+    &:hover {
+      transform: scale(1.1);
+      padding: 10px;
+      background: rgb(255, 255, 255, 0.1);
+      margin: 10px 0;
     }
   }
 }

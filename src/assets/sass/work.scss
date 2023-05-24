@@ -62,9 +62,10 @@
     }
 
     img {
-      max-width: 100%;
+      width: 100%;
       border-radius: 10px;
-      // transform: scale(1.05);
+      margin: 0 auto;
+      transition: 400ms ease;
     }
 
     &__gallery {
@@ -75,24 +76,22 @@
     &__gallery__mobile {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 15px;
+      gap: 20px;
+
+      img {
+        max-width: 350px;
+      }
     }
   }
 }
 
-@media (min-width: $sm) {
+@media (min-width: $md) {
   .work {
     &-page {
-      &__gallery {
-        gap: 20px 0;
-        img {
-          max-width: 100%;
-          margin: 0;
+      img {
+        &:hover {
+          transform: scale(1.4);
         }
-      }
-
-      &__gallery__mobile {
-        grid-template-columns: 1fr 1fr !important;
       }
     }
   }

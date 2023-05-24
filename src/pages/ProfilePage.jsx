@@ -45,10 +45,10 @@ function ProfilePage() {
         </div>
 
         <div className="profile__footer">
-          <div class="profile__experience">
+          <div className="profile__experience">
             <h2>Experience</h2>
 
-            <div class="profile__experience__body">
+            <div className="profile__experience__body">
               <div>
                 <h3>
                   SafeCode <span>[2022 - present]</span>
@@ -96,13 +96,13 @@ function ProfilePage() {
               <span>Novice/Early stages</span>
             </div>
             <div className="profile__stack__items">
-              <span class="competent">HTML</span>
-              <span class="competent">jQuery</span>
-              <span class="competent">CSS</span>
-              <span class="competent">Sass</span>
-              <span class="moderate">React</span>
-              <span class="moderate">JavaScript</span>
-              <span class="novice">TypeScript</span>
+              <span className="competent">HTML</span>
+              <span className="competent">jQuery</span>
+              <span className="competent">CSS</span>
+              <span className="competent">Sass</span>
+              <span className="moderate">React</span>
+              <span className="moderate">JavaScript</span>
+              <span className="novice">TypeScript</span>
               {/* <span class="novice">Redux</span> */}
             </div>
             <a
