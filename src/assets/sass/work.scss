@@ -61,21 +61,21 @@
       }
     }
 
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      // transform: scale(1.05);
+    }
+
     &__gallery {
       @include flex-column-start;
-      gap: 30px 0;
-
-      img {
-        // max-width: 100%;
-        border-radius: 10px;
-        margin: -5px;
-      }
+      gap: 15px 0;
     }
 
     &__gallery__mobile {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
+      grid-template-columns: 1fr;
+      gap: 15px;
     }
   }
 }
@@ -89,6 +89,10 @@
           max-width: 100%;
           margin: 0;
         }
+      }
+
+      &__gallery__mobile {
+        grid-template-columns: 1fr 1fr !important;
       }
     }
   }

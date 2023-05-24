@@ -25,7 +25,8 @@ export const workObj = [
     snapshotMobile: [
       "my-sal-pack/msp-login-mobile.png",
       "my-sal-pack/msp-dashboard-mobile.png",
-      "my-sal-pack/msp-benefits-mobile.png",
+      "my-sal-pack/msp-benefits-1-mobile.png",
+      "my-sal-pack/msp-benefits-2-mobile.png",
       "my-sal-pack/msp-menu-mobile.png",
     ],
   },
