@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.04616a5b.css",
-    "main.js": "/static/js/main.4e60c869.js",
+    "main.css": "/static/css/main.69d17ffe.css",
+    "main.js": "/static/js/main.dedceb9d.js",
     "static/js/787.47675a74.chunk.js": "/static/js/787.47675a74.chunk.js",
     "static/media/kader-home.png": "/static/media/kader-home.989496ac399805197e75.png",
     "static/media/kader-about.png": "/static/media/kader-about.6df5560656c19346b8ab.png",
@@ -128,12 +128,12 @@
     "static/media/perfectcottonlogo.png": "/static/media/perfectcottonlogo.6cf97d1580b0b5702762.png",
     "static/media/MSP-logo.svg": "/static/media/MSP-logo.09e40b5157fdc71dac57.svg",
     "index.html": "/index.html",
-    "main.04616a5b.css.map": "/static/css/main.04616a5b.css.map",
-    "main.4e60c869.js.map": "/static/js/main.4e60c869.js.map",
+    "main.69d17ffe.css.map": "/static/css/main.69d17ffe.css.map",
+    "main.dedceb9d.js.map": "/static/js/main.dedceb9d.js.map",
     "787.47675a74.chunk.js.map": "/static/js/787.47675a74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04616a5b.css",
-    "static/js/main.4e60c869.js"
+    "static/css/main.69d17ffe.css",
+    "static/js/main.dedceb9d.js"
   ]
 }
