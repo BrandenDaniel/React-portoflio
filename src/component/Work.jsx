@@ -1,4 +1,7 @@
 import { workObj } from "../project-data/data";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 function Work(props) {
   const list = [...workObj];
@@ -19,24 +22,30 @@ function Work(props) {
           Year: <span>{project.year}</span>
         </span>
       </div>
-
+      <Link to="/work" className="work-page__back circle-hover">
+        <FontAwesomeIcon icon={faArrowLeft} />{" "}
+      </Link>
       <div className="work-page__gallery">
         {project.snapshot.map(function (src) {
           return (
-            <img
-              src={require(`../assets/images/work-snapshots/${src}`)}
-              alt=""
-            />
+            <div className="work-page__gallery__img">
+              <img
+                src={require(`../assets/images/work-snapshots/${src}`)}
+                alt=""
+              />
+            </div>
           );
         })}
 
         <div className="work-page__gallery__mobile">
           {project.snapshotMobile.map(function (src) {
             return (
-              <img
-                src={require(`../assets/images/work-snapshots/${src}`)}
-                alt=""
-              />
+              <div className="work-page__gallery__img">
+                <img
+                  src={require(`../assets/images/work-snapshots/${src}`)}
+                  alt=""
+                />
+              </div>
             );
           })}
         </div>

@@ -39,8 +39,7 @@ function ProfilePage() {
           </p>
 
           <p>
-            Curious to see the fruits of my labor? Check out my
-            <Link to="/work"> recent work</Link> and prepare to be impressed! 🙌
+            Check out my <Link to="/work">recent work</Link>.
           </p>
         </div>
 

@@ -47,7 +47,6 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 8px 15px;
-      margin-bottom: 10px;
 
       span {
         color: var(--body-color);
@@ -61,16 +60,32 @@
       }
     }
 
+    &__back {
+    }
+
     img {
       width: 100%;
       border-radius: 10px;
       margin: 0 auto;
-      transition: 400ms ease;
+      transition: 300ms ease;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
     }
 
     &__gallery {
       @include flex-column-start;
       gap: 15px 0;
+
+      &__img {
+        text-align: center;
+        &::before {
+          content: "";
+          position: fixed;
+          inset: 0;
+          background-color: rgba(0, 0, 0, 0);
+          z-index: -1;
+          transition: 300ms ease;
+        }
+      }
     }
 
     &__gallery__mobile {
@@ -88,9 +103,20 @@
 @media (min-width: $md) {
   .work {
     &-page {
-      img {
+      &__gallery__img {
         &:hover {
-          transform: scale(1.4);
+          z-index: 1;
+          &::before {
+            background-color: rgba(0, 0, 0, 0.75);
+            pointer-events: none;
+          }
+        }
+      }
+
+      img {
+        margin: 0 auto;
+        &:hover {
+          transform: scale(1.45) translateY(15.5%);
         }
       }
     }

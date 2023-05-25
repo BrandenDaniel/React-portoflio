@@ -8,6 +8,7 @@
   --lg: 992px;
   --nav-bg: rgb(22, 30, 64, 0.6);
   --toggle-border: rgb(22, 30, 64, 0.5);
+  --low-transparency: rgb(22, 30, 64, 0.1);
 }
 
 [data-theme="dark"] {
@@ -17,6 +18,7 @@
   --body-color-inverse: #161e40 !important;
   --bold: 600;
   --toggle-border: rgb(255, 255, 255, 0.5);
+  --low-transparency: rgb(255, 255, 255, 0.1);
 }
 
 * {

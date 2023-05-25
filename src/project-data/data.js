@@ -91,6 +91,7 @@ export const workObj = [
     longDesc:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
     snapshot: ["my-blind-spots/myblindspots-screen.png"],
+    snapshotMobile: [],
   },
   {
     title: "Boxti",

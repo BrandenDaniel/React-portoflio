@@ -18,7 +18,7 @@ const WorkItem = (props) => {
           <p>{props.description}</p>
         </div>
         <span className="arrow-hover">
-          Read more
+          Explore more
           <FontAwesomeIcon icon={faArrowRightLong} />
         </span>
       </Link>

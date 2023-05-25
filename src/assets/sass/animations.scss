@@ -1,3 +1,6 @@
+@import "variables.scss";
+@import "mixins.scss";
+
 @keyframes fade-up {
   0% {
     opacity: 0;
@@ -56,7 +59,7 @@
   position: relative;
   overflow: hidden;
   width: max-content;
-  text-decoration: underline !important;
+  // text-decoration: underline !important;
   display: flex;
   align-items: center;
 
@@ -72,6 +75,7 @@
 
   &:hover {
     color: $hot-pink;
+    font-weight: 500;
 
     svg {
       color: $hot-pink;
@@ -102,5 +106,45 @@
     &::after {
       width: 100%;
     }
+  }
+}
+
+.circle-hover {
+  background: var(--background-color-inverse);
+  font-size: 20px;
+  @include flex-center;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  position: sticky;
+  top: 90px;
+  z-index: 10;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+
+  svg {
+    z-index: 11;
+    color: var(--body-color-inverse);
+  }
+
+  &:hover {
+    svg {
+      color: #fff;
+    }
+    &::after {
+      height: 38px;
+      width: 38px;
+    }
+  }
+
+  &::after,
+  &::before {
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    background: $hot-pink;
+    position: absolute;
+    border-radius: 50%;
+    transition: 0.2s ease;
   }
 }

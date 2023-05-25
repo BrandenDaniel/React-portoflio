@@ -10,8 +10,8 @@ function WorkPage() {
         <h1>Work</h1>
 
         <p>
-          Here are a few of my favourites - a list of real client projects I
-          worked on in the past four years.
+          Browse through a list of real client projects handcrafted by me in the
+          past four years.
         </p>
 
         {projectList.map(function (prop) {
