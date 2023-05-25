@@ -48,7 +48,7 @@
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 40px;
     animation: fade-up 1.25s;
 
     .selected-work {
@@ -63,6 +63,7 @@
       margin: 10px auto 0 auto;
       color: var(--body-color);
       text-align: center;
+      font-size: 1.1rem;
 
       &:hover {
         color: $hot-pink;
@@ -98,21 +99,22 @@
 .selected-work {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 15px;
+  gap: 20px;
   transition: 400ms ease;
   padding: 0;
   border-radius: 12px;
   margin: 0;
+
   &__thumbnail {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 22.5vh;
+    height: 24vh;
     border-radius: 12px;
 
     img {
       max-height: 120px;
-      max-width: 195px;
+      max-width: 210px;
       width: 100%;
       object-fit: cover;
     }
@@ -153,11 +155,13 @@
     }
 
     p {
-      line-height: 1.4rem;
+      line-height: 1.5rem;
+      font-size: 1.1rem;
     }
 
     a {
       color: var(--body-color);
+      font-size: 1.1rem;
     }
   }
   &--my-sal-pack .selected-work__thumbnail {
@@ -214,6 +218,10 @@
 
     &__thumbnail {
       height: 170px;
+
+      img {
+        max-width: 185px;
+      }
     }
 
     &__content {
