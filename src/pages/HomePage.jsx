@@ -4,10 +4,10 @@ import WorkItem from "../component/WorkItem";
 import { workObj } from "../project-data/data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
-
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import CV from "../assets/docs/CV.pdf";
 
 function Home() {
   const projectList = [...workObj];
@@ -16,39 +16,52 @@ function Home() {
     <div className="home">
       <div className="home__header">
         <h1>
-          A front-end web developer whose passion lies in transforming
-          creativity into web.
+          I'm a front-end developer with a profound passion for translating
+          creativity into captivating web experiences.
         </h1>
         <div className="home__external-links">
-          <a
-            href="https://www.linkedin.com/in/brandendaniel/"
-            target="_blank"
-            className="circle-hover"
-          >
-            <FontAwesomeIcon icon={faLinkedinIn} />
-          </a>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/brandendaniel/"
+              target="_blank"
+              className="circle-hover"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+
+            <a
+              href="https://github.com/BrandenDaniel"
+              target="_blank"
+              className="circle-hover"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+
+            <a
+              href="mailto:brandendanielng@gmail.com"
+              target="_blank"
+              className="circle-hover"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+          </div>
 
           <a
-            href="https://github.com/BrandenDaniel"
+            href={CV}
             target="_blank"
-            className="circle-hover"
+            rel="noreferrer"
+            className="resume-download"
           >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-
-          <a
-            href="mailto:brandendanielng@gmail.com"
-            target="_blank"
-            className="circle-hover"
-          >
-            <FontAwesomeIcon icon={faEnvelope} />
+            Download My CV.
           </a>
         </div>
         <h2>
-          👋 Hey I'm Branden, a design-focused web developer located in
-          Melbourne. I specialise in creating intuitive web sites/portals and
-          I'm currently employed at SafeCode, where I develop user-friendly
-          interfaces for a large user base of over 100,000 individuals.
+          👋 Hey I'm Branden, a design-focused web developer based in Melbourne.
+          I'm currently working at SafeCode, where I craft intuitive interfaces
+          for a user base of over 100,000 individuals.
         </h2>
 
         <Link to="/profile" className="arrow-hover">

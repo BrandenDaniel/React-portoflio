@@ -60,9 +60,6 @@
       }
     }
 
-    &__back {
-    }
-
     img {
       width: 100%;
       border-radius: 10px;
@@ -110,13 +107,10 @@
             background-color: rgba(0, 0, 0, 0.75);
             pointer-events: none;
           }
-        }
-      }
 
-      img {
-        margin: 0 auto;
-        &:hover {
-          transform: scale(1.45) translateY(15.5%);
+          img {
+            transform: scale(1.5) translateY(16.5%);
+          }
         }
       }
     }

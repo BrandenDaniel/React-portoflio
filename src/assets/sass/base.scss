@@ -1,3 +1,6 @@
+@import "variables.scss";
+@import "animations.scss";
+
 :root {
   --background-color: #fff;
   --background-color-inverse: #161e40;
@@ -47,5 +50,17 @@ body {
 
   &:has(.nav--scroll-active) {
     margin-top: 25px;
+  }
+}
+
+.resume-download {
+  color: var(--body-color);
+  text-decoration: none;
+  line-height: 1;
+  font-size: 14px !important;
+  font-weight: 500;
+
+  &:hover {
+    color: $hot-pink;
   }
 }
