@@ -8,9 +8,11 @@ export const workObj = [
     role: fed,
     year: "2023",
     shortDesc:
-      "Web development for a client's business that caters for the mentally challenged.",
-    longDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
+      "Custom-built customer portal for salary packaging and novated leasing, offering secure access and account management.",
+    longDesc: [
+      "We developed a fully customized customer portal for a leading company in the salary packaging and novated leasing industry. The portal provides clients with secure access to their salary packaging and novated leasing details.",
+      "Built from scratch with custom designs, our team of dedicated developers ensured a seamless user experience and robust functionality. The portal empowers customers to conveniently manage their accounts, view transaction history, and access relevant documents, enhancing their overall experience with the company's services.",
+    ],
     snapshot: [
       "my-sal-pack/msp-login-desktop.png",
       "my-sal-pack/msp-dashboard-loading-desktop.png",
@@ -37,9 +39,11 @@ export const workObj = [
     role: fed,
     year: "2022",
     shortDesc:
-      "Web development for a client's business that caters for the mentally challenged.",
-    longDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
+      "Custom website for a print client, showcasing products and enabling seamless online ordering.",
+    longDesc: [
+      "Our team developed and designed a bespoke website for a prominent hard copy printing client. The website showcases their extensive range of print products and provides a seamless user experience for customers to explore and order their desired items.",
+      "We incorporated a user-friendly interface, allowing visitors to easily navigate through various product categories and access detailed information. The result is a visually stunning and functional website that enhances the client's online presence and facilitates efficient print product transactions.",
+    ],
     snapshot: [
       "print-strategy-management/psm-home.png",
       "print-strategy-management/psm-products.png",
@@ -54,9 +58,11 @@ export const workObj = [
     role: fed,
     year: "2022",
     shortDesc:
-      "Web development for a client's business that caters for the mentally challenged.",
-    longDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
+      "Custom website showcasing premium leather boots with immersive design and seamless online shopping.",
+    longDesc: [
+      "We created a bespoke WordPress website for a client specializing in premium leather boots. The website showcases their exquisite collection, featuring stunning product imagery and detailed descriptions.",
+      "The site offers a unique seamless navigation of products and an intuitive interface, allowing customers to explore different boot styles and make purchases easily. Our custom design highlights the craftsmanship and luxury of the brand, providing an immersive online shopping experience for footwear enthusiasts.",
+    ],
     snapshot: [
       "kader-boot-co/kader-home.png",
       "kader-boot-co/kader-shop.png",
@@ -71,9 +77,10 @@ export const workObj = [
     role: fed,
     year: "2022",
     shortDesc:
-      "Web development for a client's business that caters for the mentally challenged.",
-    longDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
+      "Custom-built website for musician Annie, featuring her digital products, courtesy of Bebble competition.",
+    longDesc: [
+      "Annie, a talented musician, won a competition by held by Bebble and received a free custom website. The website showcases Annie's digital products and highlights her musical journey, providing a captivating online presence for her fans and customers.",
+    ],
     snapshot: [
       "annie-pirotta/anniepirotta-home.png",
       "annie-pirotta/anniepirotta-sym.png",
@@ -85,11 +92,13 @@ export const workObj = [
     thumbnail: "my-blind-spots.png",
     id: "my-blind-spots",
     role: fed,
-    year: "2022",
+    year: "2019",
     shortDesc:
-      "Web development for a client's business that caters for the mentally challenged.",
-    longDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
+      "Custom website for mental health, featuring a questionnaire to foster personal growth and improved relationships.",
+    longDesc: [
+      "We created a custom website for a client in the mental health sector, providing a point of contact for her customers.",
+      "The website features a simple questionnaire designed to outline personality types, aiming to prevent bad habits and foster stronger relationships. It serves as a valuable tool for personal growth and improved interpersonal connections.",
+    ],
     snapshot: ["my-blind-spots/myblindspots-screen.png"],
     snapshotMobile: [],
   },

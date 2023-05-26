@@ -11,7 +11,9 @@ function Work(props) {
     <div className="work-page">
       <div className="work-page__description">
         <h1>{project.title}</h1>
-        <p>{project.longDesc}</p>
+        {project.longDesc.map(function (para) {
+          return <p>{para}</p>;
+        })}
       </div>
 
       <div className="work-page__info">

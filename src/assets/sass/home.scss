@@ -155,7 +155,7 @@
     }
 
     p {
-      line-height: 1.5rem;
+      line-height: 1.45rem;
       font-size: 1.1rem;
     }
 
@@ -225,7 +225,12 @@
     }
 
     &__content {
-      padding: 12px 0 !important;
+      padding: 10px 0 !important;
+      gap: 10px;
+
+      > div {
+        gap: 10px;
+      }
     }
   }
 }

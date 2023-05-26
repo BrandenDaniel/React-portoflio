@@ -50,7 +50,7 @@ function ProfilePage() {
             <div className="profile__experience__body">
               <div>
                 <h3>
-                  SafeCode <span>[2022 - present]</span>
+                  SafeCode <span>2022 - present</span>
                 </h3>
                 <p>
                   SafeCode is a subsidiary of the LeasePLUS group, specialising
@@ -63,7 +63,7 @@ function ProfilePage() {
 
               <div>
                 <h3>
-                  Arcadian Digital <span>[2019 - 2020]</span>
+                  Arcadian Digital <span>2019 - 2020</span>
                 </h3>
                 <p>
                   A bespoke digital and marketing agency that tailor high
@@ -75,7 +75,7 @@ function ProfilePage() {
 
               <div>
                 <h3>
-                  Bebble <span>[2018 - 2019]</span>
+                  Bebble <span>2018 - 2019</span>
                 </h3>
                 <p>
                   A small digital agency located in west Melbourne. With a team
@@ -110,7 +110,7 @@ function ProfilePage() {
               rel="noreferrer"
               className="arrow-hover"
             >
-              Download my resume <FontAwesomeIcon icon={faArrowRightLong} />
+              Download My CV.
             </a>
           </div>
         </div>
