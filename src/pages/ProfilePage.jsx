@@ -53,10 +53,9 @@ function ProfilePage() {
                   SafeCode <span>2022 - present</span>
                 </h3>
                 <p>
-                  SafeCode is a subsidiary of the LeasePLUS group, specialising
-                  in the development of leasing and salary packaging interfaces
-                  for individuals and companies. With a user base of over
-                  100,000, SafeCode serves a wide range of users all over
+                  SafeCode, a LeasePLUS subsidiary, creates novated leasing and
+                  salary packaging interfaces for individuals and businesses.
+                  With 100,000+ users, they cater to diverse clients across
                   Australia.
                 </p>
               </div>
@@ -66,10 +65,9 @@ function ProfilePage() {
                   Arcadian Digital <span>2019 - 2020</span>
                 </h3>
                 <p>
-                  A bespoke digital and marketing agency that tailor high
-                  quality solutions to organisations of all sizes. During my
-                  time there, I had the pleasure of working with extremely
-                  talented engineers, despite the short duration of my tenure.
+                  As a bespoke digital and marketing agency, Arcadian deliver
+                  tailored solutions to organisations of all sizes. I worked
+                  with extremely talented engineers during my time there.{" "}
                 </p>
               </div>
 
@@ -78,10 +76,10 @@ function ProfilePage() {
                   Bebble <span>2018 - 2019</span>
                 </h3>
                 <p>
-                  A small digital agency located in west Melbourne. With a team
-                  of inhouse designers and developers - most work was done on
-                  top of wordpress. Our clients were small business owners
-                  expanding their e-commerce and online presence.
+                  A small digital agency in West Melbourne with in-house
+                  designers and developers. Specialising in WordPress, they
+                  assist small business owners in expanding their e-commerce and
+                  online presence.
                 </p>
               </div>
             </div>

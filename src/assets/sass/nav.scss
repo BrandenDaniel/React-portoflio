@@ -4,7 +4,7 @@
 .nav {
   position: relative;
   @include flex-between;
-  z-index: 10;
+  z-index: 11;
 
   &--scroll-active {
     position: fixed;

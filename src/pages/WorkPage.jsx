@@ -9,10 +9,10 @@ function WorkPage() {
       <div className="work__list">
         <h1>Work</h1>
 
-        <p>
+        {/* <p>
           Browse through a list of real client projects handcrafted by me in the
           past four years.
-        </p>
+        </p> */}
 
         {projectList.map(function (prop) {
           return (

@@ -60,10 +60,11 @@
     }
 
     > a {
-      margin: 10px auto 0 auto;
+      margin: 10px auto;
       color: var(--body-color);
       text-align: center;
       font-size: 1.1rem;
+      line-height: 1;
 
       &:hover {
         color: $hot-pink;

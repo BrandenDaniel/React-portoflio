@@ -109,9 +109,11 @@ export const workObj = [
     role: fed,
     year: "2022",
     shortDesc:
-      "Web development for a client's business that caters for the mentally challenged.",
-    longDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
+      "Custom website selling curated product baskets via WordPress WooCommerce for seamless online shopping.",
+    longDesc: [
+      "Boxti was a custom designed website developed from the ground up -  offering neatly packaged assortments of products. Built on WordPress with WooCommerce, the site provides a seamless e-commerce experience, allowing customers to easily browse, purchase, and enjoy the curated product baskets",
+      "",
+    ],
     snapshot: [
       "boxti/boxti-home.png",
       "boxti/boxti-corporate.png",
@@ -126,9 +128,11 @@ export const workObj = [
     role: fed,
     year: "2022",
     shortDesc:
-      "Web development for a client's business that caters for the mentally challenged.",
-    longDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
+      "Developed learning management system for engineering solutions company, optimizing onboarding and training.",
+    longDesc: [
+      "We created a robust learning management system for our client, a provider of engineering solutions. The system facilitates onboarding and training for new recruits, offering courses on various topics such as maintenance, line boring, and manufacturing.",
+      "Through the system, the client effectively manages and tracks the progress of learners, ensuring a comprehensive and streamlined training experience.",
+    ],
     snapshot: [
       "all-west-engineering/lms-1.png",
       "all-west-engineering/lms-2.png",
@@ -152,9 +156,11 @@ export const workObj = [
     role: fed,
     year: "2022",
     shortDesc:
-      "Web development for a client's business that caters for the mentally challenged.",
-    longDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias eius ipsam vitae possimus iusto.",
+      "Simple and beautiful website selling decorative cotton sticks with a mint green color scheme.",
+    longDesc: [
+      "We created a stunning website for our small business client specialising in decorative cotton sticks. With a focus on simplicity and beauty, the website features an elegant design, complemented by a mint green color scheme that aligns perfectly with the nature of the product.",
+      "Visitors can explore the various cotton stick offerings and make purchases, immersing themselves in a visually appealing online shopping experience.",
+    ],
     snapshot: [
       "perfect-cotton/perfectcotton-home.png",
       "perfect-cotton/perfectcotton-shop.png",
