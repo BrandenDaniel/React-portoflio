@@ -18,6 +18,54 @@
       font-weight: 500;
       line-height: 1.35;
       animation: fade-up 0.5s;
+
+      &:hover {
+        cursor: default;
+        > span {
+          &::before {
+            transform: translateY(0);
+          }
+
+          &::after {
+            transform: translateY(50px);
+          }
+        }
+      }
+
+      span {
+        position: relative;
+        flex-direction: column;
+        overflow: hidden;
+        display: inline-flex;
+
+        &::before {
+          transition: 0.3s ease;
+          color: $hot-pink;
+          transform: translateY(-50px);
+          position: absolute;
+          text-decoration: underline;
+        }
+
+        &::after {
+          transition: 0.3s ease;
+          transform: translateY(0);
+        }
+
+        &:nth-child(1)::before,
+        &:nth-child(1)::after {
+          content: "passion";
+        }
+
+        &:nth-child(2)::before,
+        &:nth-child(2)::after {
+          content: "web";
+        }
+
+        &:nth-child(3)::before,
+        &:nth-child(3)::after {
+          content: "experiences.";
+        }
+      }
     }
 
     h2 {
