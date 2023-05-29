@@ -37,7 +37,7 @@ export const workObj = [
     thumbnail: "psmlogo.png",
     id: "print-strategy-management",
     role: fed,
-    year: "2022",
+    year: "2019",
     shortDesc:
       "Custom website for a print client, showcasing products and enabling seamless online ordering.",
     longDesc: [
@@ -56,7 +56,7 @@ export const workObj = [
     thumbnail: "kader-boot-co.png",
     id: "kader-boot-co",
     role: fed,
-    year: "2022",
+    year: "2019",
     shortDesc:
       "Custom website showcasing premium leather boots with immersive design and seamless online shopping.",
     longDesc: [
@@ -75,7 +75,7 @@ export const workObj = [
     thumbnail: "annie-pirotta.png",
     id: "annie-pirotta",
     role: fed,
-    year: "2022",
+    year: "2019",
     shortDesc:
       "Custom-built website for musician Annie, featuring her digital products, courtesy of Bebble competition.",
     longDesc: [
@@ -107,7 +107,7 @@ export const workObj = [
     thumbnail: "boxtilogo.png",
     id: "boxti",
     role: fed,
-    year: "2022",
+    year: "2018",
     shortDesc:
       "Custom website selling curated product baskets via WordPress WooCommerce for seamless online shopping.",
     longDesc: [
@@ -126,7 +126,7 @@ export const workObj = [
     thumbnail: "all-west-eng.png",
     id: "all-west-engineering",
     role: fed,
-    year: "2022",
+    year: "2018",
     shortDesc:
       "Developed learning management system for engineering solutions company, optimizing onboarding and training.",
     longDesc: [
@@ -154,7 +154,7 @@ export const workObj = [
     thumbnail: "perfectcottonlogo.png",
     id: "perfect-cotton",
     role: fed,
-    year: "2022",
+    year: "2018",
     shortDesc:
       "Simple and beautiful website selling decorative cotton sticks with a mint green color scheme.",
     longDesc: [

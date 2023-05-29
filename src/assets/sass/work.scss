@@ -4,10 +4,12 @@
 .work {
   &__list {
     margin-top: 40px;
+    animation: none;
 
     h1 {
       font-size: 1.4rem;
       margin-bottom: -5px;
+      animation: fade-up 0.5s;
     }
 
     > p {
@@ -19,9 +21,11 @@
     .selected-work {
       display: grid !important;
 
-      // &__content {
-      //   padding-top: 0;
-      // }
+      @for $i from 1 through 8 {
+        &:nth-child(#{$i}) {
+          animation: fade-up ($i * 0.25) + 0.25s;
+        }
+      }
     }
   }
 
@@ -39,27 +43,37 @@
       }
 
       p {
-        font-size: 1.1rem;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1.45;
+        opacity: 0.7;
       }
     }
 
-    &__info {
+    &__small-info {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      gap: 8px 15px;
+      gap: 10px 15px;
 
-      span {
+      > span {
         color: var(--body-color);
         gap: 7px;
         @include flex-center-base;
         line-height: 1;
 
-        > span {
+        font-size: 1rem;
+
+        > span:last-child {
           text-decoration: underline;
+          opacity: 0.7;
+          font-size: 14px;
         }
       }
+    }
+
+    &__back {
+      position: sticky;
+      top: 90px;
     }
 
     img {
@@ -67,7 +81,7 @@
       border-radius: 10px;
       margin: 0 auto;
       transition: 300ms ease;
-      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.15);
     }
 
     &__gallery {
@@ -78,7 +92,6 @@
         text-align: center;
         &::before {
           content: "";
-          // backdrop-filter: blur(1px);
           position: fixed;
           inset: 0;
           background-color: rgba(0, 0, 0, 0);

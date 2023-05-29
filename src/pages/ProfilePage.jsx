@@ -1,7 +1,5 @@
 import "../assets/sass/profile.scss";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import CV from "../assets/docs/CV.pdf";
 
 function ProfilePage() {
@@ -39,7 +37,8 @@ function ProfilePage() {
           </p>
 
           <p>
-            Check out my <Link to="/work">recent work</Link>.
+            Check out my <Link to="/work">recent work</Link> to see what I've
+            been up to over the years.
           </p>
         </div>
 
@@ -86,22 +85,22 @@ function ProfilePage() {
           </div>
 
           <div className="profile__stack">
-            <h2>Current tech stack</h2>
-            <div className="profile__stack__legend">
+            <h2>Tech stack</h2>
+            {/* <div className="profile__stack__legend">
               <span>Competent</span>
               <span>Moderate</span>
               <span>Novice/Early stages</span>
-            </div>
-            <div className="profile__stack__items">
-              <span className="competent">HTML</span>
-              <span className="competent">jQuery</span>
-              <span className="competent">CSS</span>
-              <span className="competent">Sass</span>
-              <span className="moderate">React</span>
-              <span className="moderate">JavaScript</span>
-              <span className="novice">TypeScript</span>
+            </div> */}
+            <ul className="profile__stack__items">
+              <li className="competent">HTML</li>
+              <li className="competent">jQuery</li>
+              <li className="competent">CSS</li>
+              <li className="competent">Sass</li>
+              <li className="moderate">React</li>
+              <li className="moderate">JavaScript</li>
+              <li className="novice">TypeScript</li>
               {/* <span class="novice">Redux</span> */}
-            </div>
+            </ul>
             <a
               href={CV}
               target="_blank"

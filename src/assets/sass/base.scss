@@ -50,6 +50,10 @@ body {
 
   &:has(.nav--scroll-active) {
     margin-top: 25px;
+
+    .work-page__back {
+      z-index: 2;
+    }
   }
 }
 

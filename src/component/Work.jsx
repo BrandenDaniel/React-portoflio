@@ -15,17 +15,18 @@ function Work(props) {
           return <p>{para}</p>;
         })}
       </div>
-
-      <div className="work-page__info">
+      <div className="work-page__small-info">
         <span>
-          Role: <span>{project.role}</span>
+          <span>Role: </span>
+          <span>{project.role}</span>
         </span>
         <span>
-          Year: <span>{project.year}</span>
+          <span>Year:</span>
+          <span>{project.year}</span>
         </span>
       </div>
       <Link to="/work" className="work-page__back circle-hover">
-        <FontAwesomeIcon icon={faArrowLeft} />{" "}
+        <FontAwesomeIcon icon={faArrowLeft} />
       </Link>
       <div className="work-page__gallery">
         {project.snapshot.map(function (src) {

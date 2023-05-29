@@ -44,6 +44,30 @@
     animation: fade-up 1.25s;
   }
 
+  &__external-links {
+    @include flex-between;
+    z-index: 0;
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      margin: -5px 0;
+    }
+
+    a {
+      background: none;
+      box-shadow: none;
+
+      svg {
+        font-size: 20px;
+        color: var(--body-color);
+      }
+    }
+    .resume-download {
+      font-size: 1rem;
+    }
+  }
+
   &__selected-work,
   &__list {
     display: flex;
@@ -69,29 +93,6 @@
       &:hover {
         color: $hot-pink;
       }
-    }
-  }
-
-  &__external-links {
-    @include flex-between;
-    > div {
-      display: flex;
-      align-items: center;
-      gap: 2px;
-      margin: -5px 0;
-    }
-
-    a {
-      background: none;
-      box-shadow: none;
-
-      svg {
-        font-size: 20px;
-        color: var(--body-color);
-      }
-    }
-    .resume-download {
-      font-size: 1rem;
     }
   }
 }
@@ -157,12 +158,13 @@
 
     p {
       line-height: 1.45rem;
-      font-size: 1.1rem;
+      font-size: 1rem;
+      // opacity: 0.7;
     }
 
-    a {
+    span {
       color: var(--body-color);
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
   &--my-sal-pack .selected-work__thumbnail {
