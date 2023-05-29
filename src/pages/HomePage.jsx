@@ -17,7 +17,7 @@ function Home() {
       <div className="home__header">
         <h1>
           A front-end developer with a profound <span></span> for translating
-          creativity into captivating <span></span>
+          creativity into captivating <span></span>&nbsp;
           <span></span>
         </h1>
         <div className="home__external-links">

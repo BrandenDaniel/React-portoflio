@@ -14,7 +14,7 @@
     }
 
     h1 {
-      font-size: 1.9rem;
+      font-size: 2rem;
       font-weight: 500;
       line-height: 1.35;
       animation: fade-up 0.5s;
@@ -27,7 +27,7 @@
           }
 
           &::after {
-            transform: translateY(50px);
+            transform: translateY(52px);
           }
         }
       }
@@ -41,7 +41,7 @@
         &::before {
           transition: 0.3s ease;
           color: $hot-pink;
-          transform: translateY(-50px);
+          transform: translateY(-52px);
           position: absolute;
           text-decoration: underline;
         }
@@ -58,7 +58,7 @@
 
         &:nth-child(2)::before,
         &:nth-child(2)::after {
-          content: "web";
+          content: "web ";
         }
 
         &:nth-child(3)::before,
@@ -255,7 +255,7 @@
       gap: 30px;
 
       h1 {
-        font-size: 2.45rem;
+        font-size: 2.55rem;
       }
     }
 
