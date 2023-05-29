@@ -43,6 +43,10 @@ function ProfilePage() {
         </div>
 
         <div className="profile__footer">
+          <a href={CV} target="_blank" rel="noreferrer" className="arrow-hover">
+            Download My CV.
+          </a>
+
           <div className="profile__experience">
             <h2>Experience</h2>
 

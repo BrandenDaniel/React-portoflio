@@ -60,14 +60,17 @@ function Home() {
             Download My CV.
           </a>
         </div>
-        <h2>
-          👋 Hey I'm Branden, a design-focused web developer based in Melbourne.
-          I'm currently working at SafeCode, where I craft intuitive interfaces
-          for a user base of over 100,000 individuals.
-        </h2>
 
-        <Link to="/profile" className="arrow-hover">
-          View Profile <FontAwesomeIcon icon={faArrowRightLong} />
+        <Link to="/profile" className="home__profile-hover">
+          <h2>
+            👋 Hey I'm Branden, a design-focused web developer based in
+            Melbourne. I'm currently working at SafeCode, where I craft
+            intuitive interfaces for a user base of over 100,000 individuals.
+          </h2>
+
+          <span className="arrow-hover">
+            View Profile <FontAwesomeIcon icon={faArrowRightLong} />
+          </span>
         </Link>
       </div>
 

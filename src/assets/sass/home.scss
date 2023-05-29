@@ -67,16 +67,33 @@
         }
       }
     }
+  }
 
+  &__profile-hover {
+    text-decoration: none;
     h2 {
       font-size: 1.1rem;
       line-height: 1.65;
       font-weight: 400;
       animation: fade-up 1s;
+      color: var(--body-color);
+
+      &:hover {
+        + span {
+          color: $hot-pink;
+          transition: 200ms ease;
+          font-weight: 500;
+
+          svg {
+            color: $hot-pink;
+            animation: arrow-hover 400ms;
+          }
+        }
+      }
     }
 
-    a {
-      // margin-top: -15px;
+    span {
+      margin-top: 30px;
       animation: fade-up 1.25s;
     }
   }
@@ -209,7 +226,7 @@
     p {
       line-height: 1.45rem;
       font-size: 1rem;
-      // opacity: 0.7;
+      opacity: 0.8;
     }
 
     span {

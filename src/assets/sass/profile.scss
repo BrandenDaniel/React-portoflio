@@ -13,7 +13,7 @@
       border-radius: 50%;
       border: 3px solid $hot-pink;
       display: block;
-      margin: 45px auto 30px auto;
+      margin: 40px auto;
     }
 
     h1 {
@@ -30,7 +30,7 @@
     h1 {
       margin: 0 0 22px 0;
       font-size: 1.1rem !important;
-      line-height: 1.55;
+      line-height: 1.5;
       font-weight: 400;
 
       a {
@@ -41,13 +41,18 @@
       }
     }
 
+    p {
+      // opacity: 0.8;
+      text-align: justify;
+    }
+
     p:last-child {
-      margin-bottom: 35px;
+      // margin-bottom: 35px;
     }
   }
 
   &__footer {
-    margin-top: 35px;
+    // margin-top: 35px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 35px 20px;
@@ -60,6 +65,8 @@
   }
 
   &__experience {
+    display: none;
+
     &__body {
       @include flex-column-start;
       gap: 20px;
@@ -90,13 +97,15 @@
     }
 
     p {
-      line-height: 1.45;
+      line-height: 1.5;
       font-size: 1rem;
       opacity: 0.7;
     }
   }
 
   &__stack {
+    display: none !important;
+
     order: -1;
     @include flex-column-start;
     gap: 20px;
@@ -148,7 +157,7 @@
     &__items {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
+      gap: 8px;
       max-width: 250px;
       padding: 0;
       list-style: none;
@@ -177,7 +186,7 @@
 @media (min-width: $sm) {
   .profile {
     &__footer {
-      grid-template-columns: auto 177px;
+      grid-template-columns: auto 181px;
     }
 
     &__stack {
@@ -194,7 +203,7 @@
   .profile {
     &__bio {
       img {
-        margin: 65px auto 40px auto;
+        margin: 45px auto 45px auto;
       }
     }
   }
