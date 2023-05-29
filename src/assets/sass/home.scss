@@ -16,7 +16,7 @@
     h1 {
       font-size: 2.15rem;
       font-weight: 500;
-      line-height: 1.45;
+      line-height: 1.35;
       animation: fade-up 0.5s;
 
       &:hover {
@@ -139,7 +139,7 @@
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 30px;
     animation: fade-up 1.75s;
 
     .selected-work {
