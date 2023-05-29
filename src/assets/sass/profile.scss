@@ -7,8 +7,8 @@
     animation: fade-up 1s;
 
     img {
-      width: 25%;
-      min-width: 150px;
+      width: 100%;
+      max-width: 135px;
       aspect-ratio: 1/1;
       border-radius: 50%;
       border: 3px solid $hot-pink;
@@ -204,6 +204,7 @@
     &__bio {
       img {
         margin: 45px auto 45px auto;
+        max-width: 140px;
       }
     }
   }
