@@ -179,7 +179,7 @@
     justify-content: space-between;
     color: var(--body-color);
     text-decoration: none;
-    transition: 400ms ease;
+    transition: 300ms ease;
 
     &:hover {
       span {
@@ -292,7 +292,7 @@
 @media (min-width: $md) {
   .selected-work {
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.07);
       // padding: 5px;
       // background: var(--low-transparency);
       margin: 5px 0;

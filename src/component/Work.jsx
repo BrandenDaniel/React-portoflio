@@ -12,7 +12,7 @@ function Work(props) {
       <div className="work-page__description">
         <h1>{project.title}</h1>
         {project.longDesc.map(function (para) {
-          return <p>{para}</p>;
+          return <p key={para}>{para}</p>;
         })}
       </div>
       <div className="work-page__small-info">
@@ -31,7 +31,7 @@ function Work(props) {
       <div className="work-page__gallery">
         {project.snapshot.map(function (src) {
           return (
-            <div className="work-page__gallery__img">
+            <div key={src} className="work-page__gallery__img">
               <img
                 src={require(`../assets/images/work-snapshots/${src}`)}
                 alt=""
@@ -43,7 +43,7 @@ function Work(props) {
         <div className="work-page__gallery__mobile">
           {project.snapshotMobile.map(function (src) {
             return (
-              <div className="work-page__gallery__img">
+              <div key={src} className="work-page__gallery__img">
                 <img
                   src={require(`../assets/images/work-snapshots/${src}`)}
                   alt=""
