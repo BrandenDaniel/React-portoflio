@@ -6,15 +6,15 @@
   &__header {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    margin: 60px 0 30px 0;
+    gap: 30px;
+    margin: 50px 0 30px 0;
 
     * {
       margin: 0;
     }
 
     h1 {
-      font-size: 2.15rem;
+      font-size: 2.3rem;
       font-weight: 400;
       line-height: 1.35;
       animation: fade-up 0.5s;
@@ -74,7 +74,7 @@
     h2 {
       font-size: 1.1rem;
       line-height: 1.65;
-      font-weight: 300;
+      font-weight: 400;
       animation: fade-up 1s;
       color: var(--body-color);
 
@@ -229,7 +229,6 @@
     p {
       line-height: 1.4rem;
       font-size: 1rem;
-      opacity: 0.8;
       font-weight: 300;
     }
 
@@ -273,11 +272,10 @@
   .work {
     &__header {
       margin: 75px 0 45px 0;
-      gap: 30px;
 
       h1 {
-        font-size: 2.5rem;
-        line-height: 1.35;
+        font-size: 2.6rem;
+        line-height: 1.3;
       }
     }
 
