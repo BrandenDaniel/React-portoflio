@@ -1,7 +1,7 @@
 import Work from "../component/WorkPageDetail";
 
 function MyBlindSpots() {
-  return <Work index={4} />;
+  return <Work name={"my-blind-spots"} />;
 }
 
 export default MyBlindSpots;

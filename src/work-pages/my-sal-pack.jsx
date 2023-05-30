@@ -1,7 +1,7 @@
 import Work from "../component/WorkPageDetail";
 
 function MySalPack() {
-  return <Work index={0} />;
+  return <Work name={"my-sal-pack"} />;
 }
 
 export default MySalPack;

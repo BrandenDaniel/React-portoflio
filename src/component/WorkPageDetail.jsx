@@ -1,11 +1,11 @@
-import { workObj } from "../project-data/data";
+import workJson from "../project-data/data.json";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 function WorkPageDetail(props) {
-  const list = [...workObj];
-  const project = list[props.index];
+  const list = { ...workJson };
+  const project = list[props.name];
 
   return (
     <div className="work-page">

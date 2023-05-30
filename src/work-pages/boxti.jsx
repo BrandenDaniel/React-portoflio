@@ -1,7 +1,7 @@
 import Work from "../component/WorkPageDetail";
 
 function Boxti() {
-  return <Work index={5} />;
+  return <Work name={"boxti"} />;
 }
 
 export default Boxti;

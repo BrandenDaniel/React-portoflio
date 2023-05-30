@@ -1,7 +1,7 @@
 import Work from "../component/WorkPageDetail";
 
 function KaderBootCo() {
-  return <Work index={2} />;
+  return <Work name={"kader-boot-co"} />;
 }
 
 export default KaderBootCo;

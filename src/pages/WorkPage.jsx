@@ -1,28 +1,23 @@
-import WorkItem from "../component/WorkCard";
-import { workObj } from "../project-data/data";
+import WorkCard from "../component/WorkCard";
+import workJson from "../project-data/data.json";
 
 function WorkPage() {
-  const projectList = [...workObj];
+  const projectList = { ...workJson };
 
   return (
     <div className="work">
       <div className="work__list">
         <h1>Work</h1>
 
-        {/* <p>
-          Browse through a list of real client projects handcrafted by me in the
-          past four years.
-        </p> */}
-
-        {projectList.map(function (prop) {
+        {Object.keys(projectList).map(function (prop) {
           return (
-            <WorkItem
-              title={prop.title}
-              thumbnail={prop.thumbnail}
-              id={prop.id}
-              description={prop.shortDesc}
-              pathname={prop.id}
-              key={prop.id}
+            <WorkCard
+              title={projectList[prop].title}
+              thumbnail={projectList[prop].thumbnail}
+              id={projectList[prop].id}
+              description={projectList[prop].shortDesc}
+              pathname={projectList[prop].id}
+              key={projectList[prop].id}
             />
           );
         })}
