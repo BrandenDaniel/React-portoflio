@@ -73,7 +73,7 @@ function ProfilePage() {
                 <p>
                   As a bespoke digital and marketing agency, Arcadian deliver
                   tailored solutions to organisations of all sizes. I worked
-                  with extremely talented engineers during my time there.{" "}
+                  with extremely talented engineers during my time there.
                 </p>
               </div>
 
