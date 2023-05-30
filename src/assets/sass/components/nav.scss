@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "mixins.scss";
+@import "../abstracts/variables.scss";
+@import "../abstracts/mixins.scss";
 
 .nav {
   position: relative;
@@ -58,7 +58,24 @@
 
       &:hover {
         &::after {
-          width: 93% !important;
+          width: 95% !important;
+        }
+      }
+
+      &.active {
+        position: relative;
+        color: $hot-pink;
+        &::after {
+          content: "";
+          width: 95%;
+          height: 2px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -1px;
+          background-color: $hot-pink;
+          transition: 0.15s ease-in-out;
+          display: block;
         }
       }
     }

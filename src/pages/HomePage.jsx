@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import "../assets/sass/home.scss";
-import WorkItem from "../component/WorkItem";
+import "../assets/sass/pages/home.scss";
+import WorkItem from "../component/WorkCard";
 import { workObj } from "../project-data/data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";

@@ -1,4 +1,4 @@
-import Work from "../component/Work";
+import Work from "../component/WorkPageDetail";
 
 function Boxti() {
   return <Work index={5} />;

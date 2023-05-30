@@ -1,4 +1,4 @@
-import Work from "../component/Work";
+import Work from "../component/WorkPageDetail";
 
 function MySalPack() {
   return <Work index={0} />;

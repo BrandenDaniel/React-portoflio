@@ -1,4 +1,4 @@
-import Work from "../component/Work";
+import Work from "../component/WorkPageDetail";
 
 function PerfectCotton() {
   return <Work index={7} />;

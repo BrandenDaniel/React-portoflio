@@ -1,6 +1,6 @@
-@import "variables.scss";
-@import "animations.scss";
-@import "mixins.scss";
+@import "../abstracts/variables.scss";
+@import "../abstracts/mixins.scss";
+@import "../abstracts/animations.scss";
 
 .profile {
   &__bio {
@@ -17,10 +17,10 @@
     }
 
     h1 {
-      animation: fade-up 0.5s;
+      animation: fade-up 0.25s;
     }
 
-    @for $i from 1 through 3 {
+    @for $i from 1 through 4 {
       p:nth-of-type(#{$i}) {
         animation: fade-up ($i * 0.25) + 0.25s;
       }
@@ -31,7 +31,7 @@
       margin: 0 0 20px 0;
       font-size: 1rem !important;
       line-height: 1.55;
-      font-weight: 400;
+      font-weight: 300;
 
       a {
         display: inline-block;

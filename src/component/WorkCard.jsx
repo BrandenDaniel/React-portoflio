@@ -1,9 +1,9 @@
-import "../assets/sass/work.scss";
+import "../assets/sass/pages/work.scss";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
-const WorkItem = (props) => {
+const WorkCard = (props) => {
   return (
     <div className={`selected-work selected-work--${props.id}`}>
       <div className="selected-work__thumbnail">
@@ -26,4 +26,4 @@ const WorkItem = (props) => {
   );
 };
 
-export default WorkItem;
+export default WorkCard;

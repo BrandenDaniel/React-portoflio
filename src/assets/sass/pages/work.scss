@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "mixins.scss";
+@import "../abstracts/variables.scss";
+@import "../abstracts/mixins.scss";
 
 .work {
   &__list {
@@ -9,7 +9,7 @@
     h1 {
       font-size: 1.4rem;
       margin-bottom: -5px;
-      animation: fade-up 0.5s;
+      animation: fade-up 0.25s;
     }
 
     > p {
@@ -22,7 +22,7 @@
       display: grid !important;
 
       @for $i from 1 through 8 {
-        &:nth-child(#{$i}) {
+        &:nth-of-type(#{$i}) {
           animation: fade-up ($i * 0.25) + 0.25s;
         }
       }
@@ -40,12 +40,14 @@
       h1 {
         font-size: 1.3rem;
         line-height: 1;
+        font-weight: 400;
       }
 
       p {
         font-size: 1rem;
-        line-height: 1.45;
-        opacity: 0.7;
+        line-height: 1.55;
+        opacity: 0.8;
+        font-weight: 300;
       }
     }
 
@@ -65,7 +67,7 @@
 
         > span:last-child {
           text-decoration: underline;
-          opacity: 0.7;
+          opacity: 0.8;
           font-size: 14px;
         }
       }
@@ -81,7 +83,7 @@
       border-radius: 10px;
       margin: 0 auto;
       transition: 300ms ease;
-      box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.3);
     }
 
     &__gallery {

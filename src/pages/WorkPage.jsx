@@ -1,4 +1,4 @@
-import WorkItem from "../component/WorkItem";
+import WorkItem from "../component/WorkCard";
 import { workObj } from "../project-data/data";
 
 function WorkPage() {

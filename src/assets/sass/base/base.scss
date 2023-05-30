@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "animations.scss";
+@import "../abstracts/variables.scss";
+@import "../abstracts/mixins.scss";
 
 :root {
   --background-color: #fff;

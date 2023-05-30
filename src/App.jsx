@@ -1,15 +1,21 @@
+// Route
 import { Route, Routes } from "react-router-dom";
+
+// Assets
 import "./assets/js/main.js";
 import "./assets/font/stylesheet.css";
-import "../src/assets/sass/base.scss";
+import "../src/assets/sass/base/base.scss";
 
+// Components
 import Nav from "./component/Nav";
 import ScrollToTop from "./component/ScrollToTop";
 
+// Main pages
 import HomePage from "./pages/HomePage";
 import WorkPage from "./pages/WorkPage";
 import ProfilePage from "./pages/ProfilePage";
 
+// Work pages
 import MyBlindSpots from "./work-pages/my-blind-spots";
 import Boxti from "./work-pages/boxti";
 import AllWestEngineering from "./work-pages/all-west-engineering";
