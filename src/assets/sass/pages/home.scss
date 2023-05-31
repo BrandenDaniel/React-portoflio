@@ -142,10 +142,22 @@
     animation: fade-up 1.75s;
 
     .selected-work {
-      display: none;
+      display: grid;
+      height: 0;
+      margin: 0;
+      overflow: hidden;
 
       &:nth-of-type(-n + 3) {
         display: grid;
+        height: auto;
+        margin: 10px 0;
+      }
+    }
+
+    &--show-all {
+      .selected-work {
+        height: auto;
+        margin: 10px 0;
       }
     }
 
@@ -281,7 +293,7 @@
 
     &__selected-work,
     &__list {
-      gap: 20px !important;
+      gap: 0px !important;
     }
   }
 

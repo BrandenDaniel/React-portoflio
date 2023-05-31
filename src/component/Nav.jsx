@@ -35,9 +35,9 @@ function Nav() {
           <NavLink to="/profile" className="underline-hover">
             Profile
           </NavLink>
-          <NavLink to="/work" className="underline-hover">
+          {/* <NavLink to="/work" className="underline-hover">
             Work
-          </NavLink>
+          </NavLink> */}
           <span id="themeToggle">
             <input
               type="checkbox"

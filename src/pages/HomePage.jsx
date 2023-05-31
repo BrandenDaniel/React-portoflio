@@ -11,6 +11,14 @@ import CV from "../assets/docs/CV.pdf";
 function Home() {
   const projectList = { ...workJson };
 
+  const viewMoreWork = () => {
+    document
+      .querySelector(".home__selected-work")
+      .classList.add("home__selected-work--show-all");
+
+    document.querySelector(".home__view-more").style.display = "none";
+  };
+
   return (
     <div className="home">
       <div className="home__header">
@@ -88,7 +96,9 @@ function Home() {
             />
           );
         })}
-        <Link to="/work">Check out the rest</Link>
+        <span to="#" className="home__view-more" onClick={() => viewMoreWork()}>
+          View more
+        </span>
       </div>
     </div>
   );
