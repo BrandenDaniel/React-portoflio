@@ -3,7 +3,6 @@ import "../assets/sass/pages/home.scss";
 import WorkCard from "../component/WorkCard";
 import workJson from "../project-data/data.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -69,7 +68,8 @@ function Home() {
           </h2>
 
           <span className="arrow-hover">
-            View Profile <FontAwesomeIcon icon={faArrowRightLong} />
+            View Profile
+            <span class="material-symbols-outlined">north_east</span>
           </span>
         </Link>
       </div>

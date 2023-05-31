@@ -1,7 +1,5 @@
 import "../assets/sass/pages/work.scss";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const WorkCard = (props) => {
   return (
@@ -19,7 +17,7 @@ const WorkCard = (props) => {
         </div>
         <span className="arrow-hover">
           Explore more
-          <FontAwesomeIcon icon={faArrowRightLong} />
+          <span class="material-symbols-outlined">north_east</span>
         </span>
       </Link>
     </div>

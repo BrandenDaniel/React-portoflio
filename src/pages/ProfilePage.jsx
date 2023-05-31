@@ -1,6 +1,4 @@
 import "../assets/sass/pages/profile.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import CV from "../assets/docs/CV.pdf";
 
@@ -47,7 +45,7 @@ function ProfilePage() {
         <div className="profile__footer">
           <a href={CV} target="_blank" rel="noreferrer" className="arrow-hover">
             Download My CV
-            <FontAwesomeIcon icon={faArrowRightLong} />
+            <span class="material-symbols-outlined">north_east</span>
           </a>
 
           <div className="profile__experience">

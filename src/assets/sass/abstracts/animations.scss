@@ -15,23 +15,23 @@
 
 @keyframes arrow-hover {
   0% {
-    transform: translate(0%, -50%) rotate(-45deg);
+    transform: translate(0px, 0px);
   }
 
   49% {
-    transform: translate(100%, -150%) rotate(-45deg);
+    transform: translate(17px, -17px);
   }
 
   50% {
-    transform: translate(100%, 150%) rotate(-45deg);
+    transform: translate(17px, 17px);
   }
 
   51% {
-    transform: translate(-200%, 150%) rotate(-45deg);
+    transform: translate(-17px, 17px);
   }
 
   100% {
-    transform: translate(0%, -50%) rotate(-45deg);
+    transform: translate(0px, 0px);
   }
 }
 
@@ -53,7 +53,6 @@
 
 .arrow-hover {
   line-height: 1 !important;
-  padding: 1px 18px 1px 0;
   color: var(--body-color);
   font-weight: 400;
   position: relative;
@@ -61,23 +60,20 @@
   width: max-content;
   text-decoration: none !important;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  gap: 2px;
 
-  svg {
-    font-size: 16px;
-    height: 16px;
+  span.material-symbols-outlined {
+    font-size: 20px;
     line-height: 1;
-    top: 60%;
-    transform: translate(0%, -50%) rotate(-45deg);
-    position: absolute;
-    right: -1px;
+    margin: 0;
+
+    transform: translate(0px, 0px);
   }
 
   &:hover {
     color: $hot-pink;
-    font-weight: 500;
-
-    svg {
+    span.material-symbols-outlined {
       color: $hot-pink;
       animation: arrow-hover 400ms;
     }
