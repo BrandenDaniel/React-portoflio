@@ -14,7 +14,7 @@
     }
 
     h1 {
-      font-size: 2.3rem;
+      font-size: 2.15rem;
       font-weight: 500;
       line-height: 1.35;
       animation: fade-up 0.5s;
@@ -58,11 +58,16 @@
 
         &:nth-child(2)::before,
         &:nth-child(2)::after {
-          content: "web ";
+          content: "for";
         }
 
         &:nth-child(3)::before,
         &:nth-child(3)::after {
+          content: "web ";
+        }
+
+        &:nth-child(4)::before,
+        &:nth-child(4)::after {
           content: "experiences.";
         }
       }
@@ -198,7 +203,7 @@
       max-height: 0;
       margin: 0;
       overflow: hidden;
-      transition: 0.4s ease;
+      transition: 0.8s ease;
       opacity: 0;
 
       &:nth-of-type(-n + 3) {
