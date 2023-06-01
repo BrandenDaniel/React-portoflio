@@ -32,7 +32,7 @@ function Home() {
       <div className="home__header">
         <h1>
           A front-end developer with a profound <span></span> <span></span>{" "}
-          translating creativity into captivating <span></span> <span></span>
+          transforming creativity into captivating <span></span> <span></span>
         </h1>
         <div className="home__external-links">
           <div>
