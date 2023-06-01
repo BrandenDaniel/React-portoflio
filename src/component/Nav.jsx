@@ -32,9 +32,9 @@ function Nav() {
         </Link>
 
         <div>
-          <NavLink to="/profile" className="underline-hover">
+          {/* <NavLink to="/profile" className="underline-hover">
             Profile
-          </NavLink>
+          </NavLink> */}
           {/* <NavLink to="/work" className="underline-hover">
             Work
           </NavLink> */}

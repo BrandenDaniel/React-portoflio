@@ -23,6 +23,8 @@ function Home() {
     document
       .querySelector(".home__profile__bio > div")
       .classList.add("home__profile__bio--show-all");
+
+    document.querySelector(".home__profile__read-more").style.display = "none";
   };
 
   return (
