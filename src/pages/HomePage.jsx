@@ -19,6 +19,12 @@ function Home() {
     document.querySelector(".home__view-more").style.display = "none";
   };
 
+  const showMoreBio = () => {
+    document
+      .querySelector(".home__profile__bio > div")
+      .classList.add("home__profile__bio--show-all");
+  };
+
   return (
     <div className="home">
       <div className="home__header">
@@ -68,18 +74,43 @@ function Home() {
           </a>
         </div>
 
-        <Link to="/profile" className="home__profile-hover">
+        <div className="home__profile__bio">
           <h2>
             👋 Hey I'm Branden, a design-focused web developer based in
             Melbourne. I'm currently working at SafeCode, where I craft
             intuitive interfaces for a user base of over 100,000 individuals.
+            <div
+              className="home__profile__read-more"
+              onClick={() => showMoreBio()}
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </h2>
 
-          <span className="arrow-hover">
-            View Profile
-            <span class="material-symbols-outlined">north_east</span>
-          </span>
-        </Link>
+          <div>
+            <h2>
+              I've been passionately immersed in the world of front-end dev
+              since early 2019. Over the years, I've had the incredible
+              opportunity to work with both corporations and smaller creative
+              digital agencies.
+            </h2>
+
+            <h2>
+              Me and CSS - we're best friends. The process of transforming
+              intricate designs into clean, stuctured stylesheets is what I live
+              for. I enjoy tackling complicated layouts and seamlessly bring a
+              designer's vision to life.
+            </h2>
+
+            <h2>
+              After taking a transformative break to explore an alternative
+              career path, I've been steered right back to where I belong -
+              making fun, intuitive, and gorgeous websites.
+            </h2>
+          </div>
+        </div>
       </div>
 
       <h3>Selected work</h3>

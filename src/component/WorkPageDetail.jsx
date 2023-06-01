@@ -25,7 +25,7 @@ function WorkPageDetail(props) {
           <span>{project.year}</span>
         </span>
       </div>
-      <Link to="/work" className="work-page__back circle-hover">
+      <Link to="/" className="work-page__back circle-hover">
         <FontAwesomeIcon icon={faArrowLeft} />
       </Link>
       <div className="work-page__gallery">

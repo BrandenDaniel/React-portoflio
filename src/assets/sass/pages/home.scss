@@ -69,8 +69,11 @@
     }
   }
 
-  &__profile-hover {
+  &__profile__bio {
     text-decoration: none;
+    @include flex-column-start;
+    gap: 15px;
+
     h2 {
       font-size: 1.1rem;
       line-height: 1.65;
@@ -78,22 +81,65 @@
       animation: fade-up 1s;
       color: var(--body-color);
 
-      &:hover {
-        + span {
-          color: $hot-pink;
-          transition: 200ms ease;
+      .home__profile__read-more {
+        display: inline-flex;
+        background: var(--background-color-inverse);
+        height: 13px;
+        width: 26px;
+        position: relative;
+        margin: 0 0 0 5px;
+        border-radius: 3px;
 
-          > span.material-symbols-outlined {
-            color: $hot-pink;
-            animation: arrow-hover 400ms;
+        &:hover {
+          cursor: pointer;
+        }
+
+        span {
+          position: absolute;
+          height: 2px;
+          width: 2px;
+          display: block;
+          background: var(--body-color-inverse);
+          @include pos-y-center;
+
+          &:nth-child(1) {
+            left: 25%;
+          }
+          &:nth-child(2) {
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+
+          &:nth-child(3) {
+            right: 25%;
           }
         }
       }
     }
 
-    > span {
-      animation: fade-up 1.25s;
-      margin-top: 30px;
+    > div {
+      overflow: hidden;
+      transition: 0.5s ease-out;
+      max-height: 0;
+      opacity: 0;
+
+      &.home__profile__bio--show-all {
+        max-height: max-content;
+        opacity: 1;
+
+        h2 {
+          margin: 15px 0;
+          animation: fade-up 0.5s;
+
+          &:first-child {
+            margin-top: 0;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
     }
   }
 
@@ -138,41 +184,52 @@
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 30px;
     animation: fade-up 1.75s;
 
     .selected-work {
       display: grid;
-      height: 0;
+      max-height: 0;
       margin: 0;
       overflow: hidden;
+      transition: 0.75s ease;
+      opacity: 0;
 
       &:nth-of-type(-n + 3) {
         display: grid;
-        height: auto;
-        margin: 10px 0;
+        max-height: 999px;
+        margin: 15px 0;
+        opacity: 1;
+      }
+
+      &:first-child {
+        margin-top: 0 !important;
+      }
+
+      &:last-child {
+        margin-bottom: 0 !important;
       }
     }
 
     &--show-all {
       .selected-work {
-        height: auto;
-        margin: 10px 0;
+        max-height: 999px;
+        margin: 15px 0;
+        opacity: 1;
       }
     }
+  }
 
-    > a {
-      margin: 10px auto;
-      color: var(--body-color);
-      text-align: center;
-      font-size: 1.1rem;
-      line-height: 1;
-      font-weight: 400;
-      text-decoration-thickness: 1px;
+  &__view-more {
+    margin: 20px auto;
+    color: var(--body-color);
+    text-align: center;
+    font-size: 1;
+    line-height: 1;
+    font-weight: 400;
 
-      &:hover {
-        color: $hot-pink;
-      }
+    &:hover {
+      cursor: pointer;
+      color: $hot-pink;
     }
   }
 }
@@ -184,7 +241,6 @@
   gap: 20px;
   transition: 400ms ease;
   padding: 0;
-  border-radius: 12px;
   margin: 0;
 
   &__thumbnail {
@@ -249,6 +305,7 @@
       font-size: 1rem;
     }
   }
+
   &--my-sal-pack .selected-work__thumbnail {
     background: #005b99;
   }
@@ -261,19 +318,15 @@
   &--annie-pirotta .selected-work__thumbnail {
     background: #ff0050;
   }
-
   &--kader-boot-co .selected-work__thumbnail {
     background: #aaa;
   }
-
   &--all-west-engineering .selected-work__thumbnail {
     background: #ff6a3d;
   }
-
   &--perfect-cotton .selected-work__thumbnail {
     background: #fff;
   }
-
   &--print-strategy-management .selected-work__thumbnail {
     background: #c7edf7;
   }
@@ -294,27 +347,39 @@
     &__selected-work,
     &__list {
       gap: 0px !important;
-    }
-  }
 
-  .selected-work {
-    grid-template-columns: 1fr 1fr !important;
-    gap: 20px;
-
-    &__thumbnail {
-      height: 170px;
-
-      img {
-        max-width: 185px;
+      &--show-all {
+        .selected-work {
+          margin: 10px 0 !important;
+        }
       }
-    }
 
-    &__content {
-      padding: 10px 0 !important;
-      gap: 10px;
+      .selected-work {
+        grid-template-columns: 1fr 1fr !important;
 
-      > div {
-        gap: 10px;
+        &:nth-of-type(-n + 3) {
+          margin: 10px 0 !important;
+        }
+        &:first-child {
+          margin-top: 0 !important;
+        }
+
+        &__thumbnail {
+          height: 160px;
+
+          img {
+            max-width: 185px;
+          }
+        }
+
+        &__content {
+          padding: 10px 0 !important;
+          gap: 10px;
+
+          > div {
+            gap: 10px;
+          }
+        }
       }
     }
   }
