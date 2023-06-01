@@ -84,26 +84,33 @@
       .home__profile__read-more {
         display: inline-flex;
         background: var(--background-color-inverse);
-        height: 13px;
+        height: 15px;
         width: 26px;
         position: relative;
         margin: 0 0 0 5px;
-        border-radius: 3px;
+        border-radius: 5px;
 
         &:hover {
           cursor: pointer;
+
+          background: $hot-pink;
+
+          span {
+            background: #fff;
+          }
         }
 
         span {
           position: absolute;
-          height: 2px;
-          width: 2px;
+          height: 3px;
+          width: 3px;
           display: block;
           background: var(--body-color-inverse);
           @include pos-y-center;
+          border-radius: 50%;
 
           &:nth-child(1) {
-            left: 25%;
+            left: 6px;
           }
           &:nth-child(2) {
             left: 50%;
@@ -111,7 +118,7 @@
           }
 
           &:nth-child(3) {
-            right: 25%;
+            right: 6px;
           }
         }
       }
@@ -191,7 +198,7 @@
       max-height: 0;
       margin: 0;
       overflow: hidden;
-      transition: 0.75s ease;
+      transition: 0.4s ease;
       opacity: 0;
 
       &:nth-of-type(-n + 3) {

@@ -115,7 +115,7 @@ function Home() {
         </div>
       </div>
 
-      <h3>Selected work</h3>
+      <h3>Work</h3>
       <div className="home__selected-work">
         {Object.keys(projectList).map(function (prop) {
           return (

@@ -1,5 +1,5 @@
 import "../assets/sass/components/nav.scss";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
 function Nav() {
@@ -32,12 +32,6 @@ function Nav() {
         </Link>
 
         <div>
-          {/* <NavLink to="/profile" className="underline-hover">
-            Profile
-          </NavLink> */}
-          {/* <NavLink to="/work" className="underline-hover">
-            Work
-          </NavLink> */}
           <span id="themeToggle">
             <input
               type="checkbox"
