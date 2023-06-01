@@ -23,7 +23,7 @@
   --bold: 600;
   --toggle-border: rgb(255, 255, 255, 0.5);
   --low-transparency: rgb(255, 255, 255, 0.1);
-  --solar-system-forefront: rgb(0, 0, 0, 0.25);
+  --solar-system-forefront: rgb(0, 0, 0, 0.35);
 }
 
 * {
@@ -35,6 +35,10 @@
   &::after {
     margin: 0;
   }
+}
+
+#root {
+  overflow-x: hidden;
 }
 
 body {
@@ -49,7 +53,6 @@ body {
   margin: 0 auto;
   padding: 20px;
   position: relative;
-  overflow-x: hidden;
 
   &:has(.nav--scroll-active) {
     margin-top: 25px;
