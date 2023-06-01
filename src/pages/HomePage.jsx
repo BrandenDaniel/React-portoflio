@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
 import "../assets/sass/pages/home.scss";
+import "../assets/sass/components/solarSystem.scss";
 import WorkCard from "../component/WorkCard";
+import SolarSystem from "../component/SolarSystem";
 import workJson from "../project-data/data.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -33,6 +34,7 @@ function Home() {
         <h1>
           A front-end developer with a profound <span></span> <span></span>{" "}
           transforming creativity into captivating <span></span> <span></span>
+          <SolarSystem></SolarSystem>
         </h1>
         <div className="home__external-links">
           <div>

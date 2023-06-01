@@ -1,0 +1,76 @@
+@import "../abstracts/variables.scss";
+@import "../abstracts/mixins.scss";
+
+.solar-system {
+  position: absolute;
+  inset: 0;
+  @include flex-between;
+  flex-direction: row-reverse;
+  z-index: -1;
+  min-width: 500px;
+
+  &::after {
+    content: "";
+    background: var(--solar-system-forefront);
+    inset: 0;
+    position: fixed;
+  }
+
+  > div {
+    border-radius: 50%;
+  }
+
+  &__sun {
+    height: 140px;
+    width: 140px;
+    background-color: rgb(255, 183, 3);
+  }
+
+  &__mercury {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 141, 2);
+  }
+
+  &__venus {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(208, 148, 18);
+  }
+
+  &__earth {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(2, 116, 255);
+  }
+
+  &__mars {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 74, 2);
+  }
+
+  &__jupiter {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(255, 207, 84);
+  }
+
+  &__saturn {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 233, 179);
+  }
+
+  &__uranus {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(1, 174, 131);
+  }
+
+  &__neptune {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(24, 66, 255);
+  }
+}
