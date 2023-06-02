@@ -11,7 +11,9 @@ export default function SolarSystem() {
         </div>
         <div className="solar-system__mars"></div>
         <div className="solar-system__jupiter"></div>
-        <div className="solar-system__saturn"></div>
+        <div className="solar-system__saturn">
+          <div className="solar-system__saturn__plannet"></div>
+        </div>
         <div className="solar-system__uranus"></div>
         <div className="solar-system__neptune"></div>
       </div>
