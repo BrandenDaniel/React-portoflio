@@ -24,63 +24,85 @@
   }
 
   &__sun {
-    height: 160px;
-    width: 160px;
-    background-color: rgb(255, 183, 3);
+    height: 140px;
+    width: 140px;
+    background-color: rgb(255, 183, 3, 0.75);
   }
 
   &__mercury {
     height: 5px;
     width: 5px;
-    background-color: rgb(255, 141, 2);
+    background-color: rgb(255, 141, 2, 0.75);
   }
 
   &__venus {
     height: 10px;
     width: 10px;
-    background-color: rgb(208, 148, 18);
+    background-color: rgb(208, 148, 18, 0.75);
   }
 
   &__earth {
     height: 20px;
     width: 20px;
-    background-color: rgb(2, 116, 255);
+    background-color: rgb(2, 116, 255, 0.75);
   }
 
   &__mars {
     height: 10px;
     width: 10px;
-    background-color: rgb(255, 74, 2);
+    background-color: rgb(255, 74, 2, 0.75);
   }
 
   &__jupiter {
-    height: 90px;
-    width: 90px;
-    background-color: rgb(255, 207, 84);
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 207, 84, 0.75);
   }
 
   &__saturn {
-    height: 30px;
-    width: 30px;
-    background-color: rgb(255, 233, 179);
+    height: 45px;
+    width: 45px;
+    background-color: rgb(255, 233, 179, 0.75);
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      width: 175%;
+      height: 15px;
+      display: block;
+      // background-color: rgb(124, 110, 73);
+      border: 1px solid rgb(124, 110, 73);
+      border-bottom: none;
+      @include pos-center;
+      transform: translate(-50%, -50%) rotate(-30deg);
+      border-radius: 50%;
+      z-index: -1;
+    }
+
+    &::after {
+      border: 1px solid rgb(124, 110, 73);
+      border-top: none;
+      z-index: 0;
+    }
   }
 
   &__uranus {
     height: 20px;
     width: 20px;
-    background-color: rgb(1, 174, 131);
+    background-color: rgb(1, 174, 131, 0.75);
   }
 
   &__neptune {
     height: 20px;
     width: 20px;
-    background-color: rgb(24, 66, 255);
+    background-color: rgb(24, 66, 255, 0.75);
   }
 }
 
 @media (min-width: $sm) {
   .solar-system {
-    transform: scale(1.2);
+    transform: scale(1.1);
     left: 0;
   }
 }
