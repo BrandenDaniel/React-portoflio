@@ -6,11 +6,11 @@
   @include flex-between;
   flex-direction: row-reverse;
   z-index: -2;
-  min-width: 480px;
+  min-width: 525px;
   width: 100%;
   inset: 0;
   left: 50%;
-  transform: scale(1) translateX(-50%);
+  transform: scale(1.1) translateX(-50%);
   // background-color: black;
 
   &-forefront {
@@ -33,8 +33,8 @@
   }
 
   &__sun {
-    height: 140px;
-    width: 140px;
+    height: 170px;
+    width: 170px;
     background-color: rgb(255, 153, 51, 1);
     filter: drop-shadow(0 0 50px rgb(255, 92, 28));
   }
@@ -141,7 +141,7 @@
 
 @media (min-width: $sm) {
   .solar-system {
-    transform: scale(1.1);
+    transform: scale(1.2);
     left: 0;
   }
 }
