@@ -23,7 +23,7 @@
   > div {
     border-radius: 50%;
 
-    animation: planet-float 10s linear infinite;
+    animation: planet-float 10s ease-in-out infinite;
 
     @for $i from 1 through 9 {
       &:nth-child(#{$i}) {
