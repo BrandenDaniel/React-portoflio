@@ -103,7 +103,6 @@
     width: 45px;
     background-color: rgb(255, 233, 179, 1);
     position: relative;
-    z-index: 10 !important;
 
     &::before,
     &::after {
@@ -121,11 +120,13 @@
     &::before {
       border: 1px solid rgb(124, 110, 73, 1);
       border-bottom: none;
+      z-index: -1;
     }
 
     &::after {
       border: 1px solid rgb(124, 110, 73) !important;
       border-top: none !important;
+      z-index: 1;
     }
   }
 
