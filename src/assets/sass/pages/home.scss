@@ -14,7 +14,7 @@
     }
 
     h1 {
-      font-size: 2.15rem;
+      font-size: 2rem;
       font-weight: 500;
       line-height: 1.35;
       animation: fade-up 0.5s;
@@ -358,7 +358,7 @@
 
       &--show-all {
         .selected-work {
-          margin: 10px 0 !important;
+          margin: 10px 0;
         }
       }
 
@@ -366,7 +366,7 @@
         grid-template-columns: 1fr 1fr !important;
 
         &:nth-of-type(-n + 3) {
-          margin: 10px 0 !important;
+          margin: 10px 0;
         }
         &:first-child {
           margin-top: 0 !important;
@@ -401,9 +401,6 @@
   .selected-work {
     &:hover {
       transform: scale(1.07);
-      // padding: 5px;
-      // background: var(--low-transparency);
-      margin: 5px 0;
     }
   }
 }

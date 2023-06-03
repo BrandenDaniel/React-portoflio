@@ -3,8 +3,9 @@
 
 .work {
   &__list {
-    margin-top: 40px;
+    margin-top: 30px;
     animation: none;
+    gap: 30px !important;
 
     h1 {
       font-size: 1.4rem;
@@ -20,6 +21,10 @@
 
     .selected-work {
       display: grid !important;
+      max-height: initial !important;
+      overflow: initial !important;
+      opacity: 1 !important;
+      margin: 0 !important;
 
       @for $i from 1 through 8 {
         &:nth-of-type(#{$i}) {
@@ -123,6 +128,10 @@
 
 @media (min-width: $md) {
   .work {
+    &__list {
+      gap: 20px !important;
+      margin-top: 40px;
+    }
     &-page {
       &__gallery__img {
         &:hover {

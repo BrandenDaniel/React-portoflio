@@ -32,6 +32,9 @@ function Nav() {
         </Link>
 
         <div>
+          <Link to="/work" className="underline-hover">
+            Work
+          </Link>
           <span id="themeToggle">
             <input
               type="checkbox"
