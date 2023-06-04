@@ -2,16 +2,16 @@
 @import "../abstracts/mixins.scss";
 
 .solar-system {
-  position: absolute;
+  position: fixed;
   @include flex-between;
   flex-direction: row-reverse;
   z-index: -2;
   min-width: 525px;
+  max-width: 725px;
   width: 100%;
-  inset: 0;
-  left: 50%;
-  transform: scale(1.1) translateX(-50%);
-  // background-color: black;
+  inset: 15% -5% auto auto;
+  margin: auto;
+  transform: scale(1.1);
 
   &-forefront {
     background: var(--solar-system-forefront);
@@ -192,9 +192,8 @@
 
 @media (min-width: $sm) {
   .solar-system {
-    transform: scale(1.2);
-    left: 0;
-    min-width: auto;
+    inset: 17.5% 0 auto 0;
+    transform: scale(1.3);
   }
 }
 

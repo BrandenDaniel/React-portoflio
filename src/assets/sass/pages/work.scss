@@ -23,7 +23,7 @@
       display: grid !important;
       max-height: initial !important;
       overflow: initial !important;
-      opacity: 1 !important;
+      opacity: initial;
       margin: 0 !important;
 
       @for $i from 1 through 8 {

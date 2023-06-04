@@ -4,11 +4,13 @@ import { Route, Routes } from "react-router-dom";
 // Assets
 import "./assets/js/main.js";
 import "./assets/font/stylesheet.css";
-import "../src/assets/sass/base/base.scss";
+import "./assets/sass/base/base.scss";
+import "./assets/sass/components/solarSystem.scss";
 
 // Components
 import Nav from "./component/Nav";
 import ScrollToTop from "./component/ScrollToTop";
+import SolarSystem from "./component/SolarSystem";
 
 // Main pages
 import HomePage from "./pages/HomePage";
@@ -27,26 +29,33 @@ import MySalPack from "./work-pages/my-sal-pack.jsx";
 
 function App() {
   return (
-    <div className="container">
-      <Nav />
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/work" element={<WorkPage />} />
-        <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/my-sal-pack" element={<MySalPack />} />
-        <Route path="/my-blind-spots" element={<MyBlindSpots />} />
-        <Route path="/boxti" element={<Boxti />} />
-        <Route path="/all-west-engineering" element={<AllWestEngineering />} />
-        <Route path="/annie-pirotta" element={<AnniePirotta />} />
-        <Route path="/kader-boot-co" element={<KaderBootCo />} />
-        <Route path="/perfect-cotton" element={<PerfectCotton />} />
-        <Route
-          path="/print-strategy-management"
-          element={<PrintStrategyManagement />}
-        />
-      </Routes>
-    </div>
+    <>
+      <SolarSystem></SolarSystem>
+
+      <div className="container">
+        <Nav />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/work" element={<WorkPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/my-sal-pack" element={<MySalPack />} />
+          <Route path="/my-blind-spots" element={<MyBlindSpots />} />
+          <Route path="/boxti" element={<Boxti />} />
+          <Route
+            path="/all-west-engineering"
+            element={<AllWestEngineering />}
+          />
+          <Route path="/annie-pirotta" element={<AnniePirotta />} />
+          <Route path="/kader-boot-co" element={<KaderBootCo />} />
+          <Route path="/perfect-cotton" element={<PerfectCotton />} />
+          <Route
+            path="/print-strategy-management"
+            element={<PrintStrategyManagement />}
+          />
+        </Routes>
+      </div>
+    </>
   );
 }
 
