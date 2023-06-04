@@ -177,5 +177,11 @@
       inset: 15px 0 auto 0;
       max-width: 590px;
     }
+
+    &__links {
+      .underline-hover {
+        margin: 0 !important;
+      }
+    }
   }
 }
