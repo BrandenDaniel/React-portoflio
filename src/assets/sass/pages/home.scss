@@ -19,6 +19,9 @@
       line-height: 1.35;
       animation: fade-up 0.5s;
       position: relative;
+      -webkit-user-select: none; /* Safari */
+      -ms-user-select: none; /* IE 10 and IE 11 */
+      user-select: none; /* Standard syntax */
 
       &:hover {
         cursor: default;

@@ -34,7 +34,7 @@ function Nav() {
 
         <div>
           <Socials />
-          <Link to="/work" className="">
+          <Link to="/work" className="underline-hover">
             Work
           </Link>
           <span id="themeToggle">
