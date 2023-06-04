@@ -24,11 +24,11 @@
     border-radius: 50%;
     animation: planet-float 25s linear infinite;
 
-    @for $i from 1 through 9 {
-      &:nth-child(#{$i}) {
-        animation-delay: -($i * 2.5s);
-      }
-    }
+    // @for $i from 1 through 9 {
+    //   &:nth-child(#{$i}) {
+    //     animation-delay: -($i * 3.16s);
+    //   }
+    // }
   }
 
   &__sun {
@@ -52,6 +52,7 @@
       rgba(255, 218, 188, 1) 20%,
       rgba(121, 83, 59, 1) 100%
     );
+    animation-delay: -2s !important;
   }
 
   &__venus {
@@ -63,6 +64,8 @@
       rgba(255, 230, 232, 1) 20%,
       rgba(172, 96, 95, 1) 100%
     );
+
+    animation-delay: -23s !important;
   }
 
   &__earth {
@@ -75,6 +78,7 @@
       rgba(124, 255, 30, 1) 100%
     );
     position: relative;
+    animation-delay: -11s !important;
 
     &__moon {
       height: 20px;
@@ -114,6 +118,7 @@
       rgba(249, 193, 140, 1) 20%,
       rgba(168, 20, 0, 1) 100%
     );
+    animation-delay: -25s !important;
   }
 
   &__jupiter {
@@ -125,9 +130,11 @@
       rgb(182, 145, 121) 20%,
       rgba(97, 69, 53, 1) 100%
     );
+    animation-delay: -6s !important;
   }
 
   &__saturn {
+    animation-delay: -20s;
     &__plannet {
       height: 25px;
       width: 25px;
@@ -176,6 +183,7 @@
       rgba(163, 236, 244, 1) 20%,
       rgba(0, 178, 203, 1) 100%
     );
+    animation-delay: -13s !important;
   }
 
   &__neptune {
@@ -187,6 +195,7 @@
       rgba(158, 166, 214, 1) 20%,
       rgba(45, 63, 149, 1) 100%
     );
+    animation-delay: -5s !important;
   }
 }
 
