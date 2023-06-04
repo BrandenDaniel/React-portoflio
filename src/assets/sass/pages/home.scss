@@ -179,7 +179,7 @@
 
     .selected-work {
       display: grid;
-      max-height: 0;
+      height: 0;
       margin: 0;
       overflow: hidden;
       transition: 0.4s ease;
@@ -187,7 +187,7 @@
 
       &:nth-of-type(-n + 3) {
         display: grid;
-        max-height: 999px;
+        height: auto;
         margin: 15px 0;
         opacity: 1;
       }
@@ -203,7 +203,7 @@
 
     &--show-all {
       .selected-work {
-        max-height: 999px;
+        height: auto;
         margin: 15px 0;
         opacity: 1;
       }
