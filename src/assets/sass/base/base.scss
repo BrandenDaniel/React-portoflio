@@ -12,7 +12,7 @@
   --nav-bg: rgb(22, 30, 64, 0.6);
   --toggle-border: rgb(22, 30, 64, 0.5);
   --low-transparency: rgb(22, 30, 64, 0.1);
-  --solar-system-forefront: rgb(255, 255, 255, 0.6);
+  --solar-system-forefront: rgb(255, 255, 255, 0.4);
 }
 
 [data-theme="dark"] {
@@ -23,7 +23,7 @@
   --bold: 600;
   --toggle-border: rgb(255, 255, 255, 0.5);
   --low-transparency: rgb(255, 255, 255, 0.1);
-  --solar-system-forefront: rgba(16, 21, 44, 0.8);
+  --solar-system-forefront: rgba(16, 21, 44, 0.5);
 }
 
 * {
@@ -60,7 +60,7 @@ body {
   position: relative;
 
   @media (min-width: $md) {
-    padding: 30px 20px 20px 20px;
+    padding: 25px 20px 20px 20px;
   }
 
   &:has(.nav--scroll-active) {
