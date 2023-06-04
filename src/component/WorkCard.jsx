@@ -17,7 +17,7 @@ const WorkCard = (props) => {
         </div>
         <span className="arrow-hover">
           Explore more
-          <span class="material-symbols-outlined">north_east</span>
+          <span className="material-symbols-outlined">north_east</span>
         </span>
       </Link>
     </div>

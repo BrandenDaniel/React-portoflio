@@ -15,7 +15,6 @@ import SolarSystem from "./component/SolarSystem";
 // Main pages
 import HomePage from "./pages/HomePage";
 import WorkPage from "./pages/WorkPage";
-import ProfilePage from "./pages/ProfilePage";
 
 // Work pages
 import MyBlindSpots from "./work-pages/my-blind-spots";
@@ -38,7 +37,6 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/work" element={<WorkPage />} />
-          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/my-sal-pack" element={<MySalPack />} />
           <Route path="/my-blind-spots" element={<MyBlindSpots />} />
           <Route path="/boxti" element={<Boxti />} />

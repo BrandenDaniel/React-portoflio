@@ -1,10 +1,7 @@
 import "../assets/sass/pages/home.scss";
 import WorkCard from "../component/WorkCard";
 import workJson from "../project-data/data.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import Socials from "../component/Socials";
 import CV from "../assets/docs/CV.pdf";
 
 function Home() {
@@ -33,35 +30,9 @@ function Home() {
           A front-end developer with a profound <span></span> <span></span>{" "}
           transforming creativity into captivating <span></span> <span></span>
         </h1>
+
         <div className="home__external-links">
-          <div>
-            <a
-              href="https://www.linkedin.com/in/brandendaniel/"
-              target="_blank"
-              className="circle-hover"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedinIn} />
-            </a>
-
-            <a
-              href="https://github.com/BrandenDaniel"
-              target="_blank"
-              className="circle-hover"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-
-            <a
-              href="mailto:brandendanielng@gmail.com"
-              target="_blank"
-              className="circle-hover"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faEnvelope} />
-            </a>
-          </div>
+          <Socials />
 
           <a
             href={CV}

@@ -166,23 +166,6 @@
     @include flex-between;
     z-index: 0;
     animation: fade-up 0.75s;
-
-    > div {
-      display: flex;
-      align-items: center;
-      gap: 2px;
-      margin: 0;
-    }
-
-    a {
-      background: none;
-      box-shadow: none;
-
-      svg {
-        font-size: 20px;
-        color: var(--body-color);
-      }
-    }
     .resume-download {
       font-size: 1rem;
     }

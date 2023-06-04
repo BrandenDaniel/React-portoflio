@@ -1,4 +1,5 @@
 import "../assets/sass/components/nav.scss";
+import Socials from "./Socials";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
@@ -32,6 +33,7 @@ function Nav() {
         </Link>
 
         <div>
+          <Socials />
           <Link to="/work" className="underline-hover">
             Work
           </Link>

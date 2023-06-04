@@ -65,6 +65,10 @@ body {
     .work-page__back {
       z-index: 2;
     }
+
+    .nav--scroll-active .social-links {
+      display: flex;
+    }
   }
 }
 

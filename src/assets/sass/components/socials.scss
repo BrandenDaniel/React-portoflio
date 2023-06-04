@@ -1,0 +1,16 @@
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+
+  a {
+    background: none;
+    box-shadow: none;
+
+    svg {
+      font-size: 20px;
+      color: var(--body-color);
+    }
+  }
+}
