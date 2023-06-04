@@ -61,17 +61,20 @@ function Home() {
 
           <div>
             <h2>
-              I've been passionately immersed in the world of front-end dev
-              since early 2019. Over the years, I've had the incredible
-              opportunity to work with both corporations and smaller creative
-              digital agencies.
+              I've been passionately immersed in the world of front-end
+              development since early 2019, constantly striving to expand my
+              skills and stay up to date with the latest industry trends.
+              Throughout my journey, I've had the privilege to collaborate with
+              a diverse range of clients, including both corporations and
+              smaller creative digital agencies.
             </h2>
 
             <h2>
-              Me and CSS - we're best friends. The process of transforming
-              intricate designs into clean, stuctured stylesheets is what I live
-              for. I enjoy tackling complicated layouts and seamlessly bring a
-              designer's vision to life.
+              CSS is my trusted companion in this realm. I thrive on the process
+              of transforming intricate designs into clean and structured
+              stylesheets. From tackling complex layouts to meticulously
+              bringing a designer's vision to life, I find joy in the art of
+              crafting visually appealing and user-friendly web experiences.
             </h2>
 
             <h2>
