@@ -12,7 +12,12 @@
   --nav-bg: rgb(22, 30, 64, 0.6);
   --toggle-border: rgb(22, 30, 64, 0.5);
   --low-transparency: rgb(22, 30, 64, 0.1);
-  --solar-system-forefront: rgb(255, 255, 255, 0.4);
+  --solar-system-forefront: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 [data-theme="dark"] {
@@ -23,7 +28,12 @@
   --bold: 600;
   --toggle-border: rgb(255, 255, 255, 0.5);
   --low-transparency: rgb(255, 255, 255, 0.1);
-  --solar-system-forefront: rgba(16, 21, 44, 0.5);
+  --solar-system-forefront: linear-gradient(
+    90deg,
+    rgba(19, 26, 54, 1) 0%,
+    rgba(19, 26, 54, 0.3) 50%,
+    rgba(19, 26, 54, 1) 100%
+  );
 }
 
 * {
