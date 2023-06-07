@@ -35,6 +35,7 @@ function WorkPageDetail(props) {
               <img
                 src={require(`../assets/images/work-snapshots/${src}`)}
                 alt=""
+                loading="lazy"
               />
             </div>
           );
@@ -47,6 +48,7 @@ function WorkPageDetail(props) {
                 <img
                   src={require(`../assets/images/work-snapshots/${src}`)}
                   alt=""
+                  loading="lazy"
                 />
               </div>
             );

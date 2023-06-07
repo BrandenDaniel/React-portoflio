@@ -78,6 +78,10 @@ body {
 
     .work-page__back {
       z-index: 2;
+
+      @media (min-width: $md) {
+        margin-left: 8px;
+      }
     }
 
     .nav--scroll-active .social-links {

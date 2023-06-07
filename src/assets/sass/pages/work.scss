@@ -50,7 +50,7 @@
 
       p {
         font-size: 1rem;
-        line-height: 1.55;
+        line-height: 1.6;
         font-weight: 300;
       }
     }
@@ -67,16 +67,12 @@
         @include flex-center-base;
         line-height: 1;
         font-size: 1rem;
-
-        > span:last-child {
-          // text-decoration: underline;
-        }
       }
     }
 
     &__back {
       position: sticky;
-      top: 90px;
+      top: 85px;
     }
 
     img {
