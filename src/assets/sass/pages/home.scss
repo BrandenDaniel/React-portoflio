@@ -241,7 +241,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 24vh;
+    height: 22vh;
     border-radius: 15px;
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.3);
 
@@ -291,7 +291,8 @@
     p {
       line-height: 1.5rem;
       font-size: 1rem;
-      font-weight: 300;
+      font-weight: 400;
+      opacity: 0.85;
     }
 
     span {
@@ -349,7 +350,7 @@
       }
 
       .selected-work {
-        grid-template-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1.2fr !important;
 
         &:nth-of-type(-n + 3) {
           margin: 10px 0;
@@ -359,15 +360,15 @@
         }
 
         &__thumbnail {
-          height: 160px;
+          height: 150px;
 
           img {
-            max-width: 185px;
+            max-width: 165px;
           }
         }
 
         &__content {
-          padding: 15px 0 !important;
+          padding: 10px 0 !important;
           gap: 10px;
 
           > div {
@@ -386,7 +387,7 @@
 @media (min-width: $md) {
   .selected-work {
     &:hover {
-      transform: scale(1.07);
+      transform: scale(1.05);
     }
   }
 }
