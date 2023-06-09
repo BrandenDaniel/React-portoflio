@@ -56,8 +56,14 @@
   }
 }
 
+html {
+  font-size: 18px !important;
+  @media (min-width: $md) {
+    font-size: 16px;
+  }
+}
+
 body {
-  font-size: 16px;
   background-color: var(--background-color);
   color: var(--body-color);
   transition: 0.15s ease-in-out;
