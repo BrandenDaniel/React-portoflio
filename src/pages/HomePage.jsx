@@ -1,6 +1,6 @@
 import "../assets/sass/pages/home.scss";
 import WorkCard from "../component/WorkCard";
-import workJson from "../project-data/data.json";
+import workJson from "../work-data/data.json";
 import Socials from "../component/Socials";
 import CV from "../assets/docs/CV.pdf";
 

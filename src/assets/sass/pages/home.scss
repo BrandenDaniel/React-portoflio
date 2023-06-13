@@ -283,7 +283,7 @@
     }
 
     h4 {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       line-height: 1;
       font-weight: 400;
     }
@@ -301,6 +301,9 @@
     }
   }
 
+  &--my-sal-pack-employer .selected-work__thumbnail {
+    background: #00a1ff;
+  }
   &--my-sal-pack .selected-work__thumbnail {
     background: #005b99;
   }

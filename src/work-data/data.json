@@ -1,13 +1,13 @@
 {
   "my-sal-pack": {
-    "title": "MySalPack",
+    "title": "MySalPack (employee portal)",
     "thumbnail": "MSP-logo.svg",
     "id": "my-sal-pack",
     "role": "front-end developer",
     "year": "2023",
     "shortDesc": "Custom-built customer portal for salary packaging and novated leasing, offering secure access and account management.",
     "longDesc": [
-      "We developed a fully customized customer portal for a leading company in the salary packaging and novated leasing industry. The portal provides clients with secure access to their salary packaging and novated leasing details.",
+      "A web portal built from the ground up - a fully customised customer portal for a leading company in the salary packaging and novated leasing industry. The portal provides clients with secure access to their salary packaging and novated leasing details.",
       "Built from scratch with custom designs, our team of dedicated developers ensured a seamless user experience and robust functionality. The portal empowers customers to conveniently manage their accounts, view transaction history, and access relevant documents, enhancing their overall experience with the company's services."
     ],
     "snapshot": [
@@ -28,6 +28,25 @@
       "my-sal-pack/msp-benefits-2-mobile.png",
       "my-sal-pack/msp-menu-mobile.png"
     ]
+  },
+  "my-sal-pack-employer": {
+    "title": "MySalPack (employer portal)",
+    "thumbnail": "MSP-logo.svg",
+    "id": "my-sal-pack-employer",
+    "role": "front-end developer",
+    "year": "2023",
+    "shortDesc": "The employer view of MySalPack. This portal provides key insight to employee's salary packaging and novated leasing.",
+    "longDesc": [
+      "MySalPack is an employer's view - a tool that enables employers to manage their employees' salary packaging and novated leasing. The portal provides valuable insights into employee data, allowing employers to oversee and optimise salary packaging and leasing benefits.",
+      "With robust features and user-friendly interface, the portal streamlines administrative tasks and enhances employer-employee communication, ensuring an efficient and effective salary packaging process."
+    ],
+    "snapshot": [
+      "my-sal-pack-employer/msp-employer-login.png",
+      "my-sal-pack-employer/msp-employer-homepage-demo.gif",
+      "my-sal-pack-employer/msp-employer-benefit.png",
+      "my-sal-pack-employer/msp-employer-onboarding.png"
+    ],
+    "snapshotMobile": []
   },
   "print-strategy-management": {
     "title": "Print Strategy Management",

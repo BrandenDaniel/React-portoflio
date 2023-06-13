@@ -1,4 +1,4 @@
-import workJson from "../project-data/data.json";
+import workJson from "../work-data/data.json";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
