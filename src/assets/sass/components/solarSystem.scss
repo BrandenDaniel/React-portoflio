@@ -16,8 +16,12 @@
   &-forefront {
     background: var(--solar-system-forefront);
     position: fixed;
-    inset: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
     z-index: -1;
+    max-width: 910px;
+    width: 100%;
   }
 
   > div {
