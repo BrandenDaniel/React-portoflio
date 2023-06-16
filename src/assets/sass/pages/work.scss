@@ -88,6 +88,8 @@
       gap: 15px 0;
 
       &__img {
+        width: fit-content;
+        margin: 0 auto;
         text-align: center;
         &::before {
           content: "";
