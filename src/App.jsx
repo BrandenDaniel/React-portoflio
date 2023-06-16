@@ -26,7 +26,6 @@ import PerfectCotton from "./work-pages/perfect-cotton";
 import PrintStrategyManagement from "./work-pages/print-strategy-management";
 import MySalPack from "./work-pages/my-sal-pack";
 import MySalPackEmployer from "./work-pages/my-sal-pack-employer";
-import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -56,7 +55,6 @@ function App() {
           />
         </Routes>
       </div>
-      <Analytics />
     </>
   );
 }
