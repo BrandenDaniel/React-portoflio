@@ -27,9 +27,12 @@ import PrintStrategyManagement from "./work-pages/print-strategy-management";
 import MySalPack from "./work-pages/my-sal-pack";
 import MySalPackEmployer from "./work-pages/my-sal-pack-employer";
 
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   return (
     <>
+      <Analytics />
       <SolarSystem></SolarSystem>
 
       <div className="container">
