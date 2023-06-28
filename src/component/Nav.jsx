@@ -26,7 +26,7 @@ function Nav() {
   };
 
   return (
-    <div className="nav">
+    <nav className="nav">
       <div className="nav__links">
         <Link className="nav__logo underline-hover" to="/">
           BN<span>.</span>
@@ -46,7 +46,7 @@ function Nav() {
           </span>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

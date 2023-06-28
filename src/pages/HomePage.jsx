@@ -25,7 +25,7 @@ function Home() {
 
   return (
     <div className="home">
-      <div className="home__header">
+      <header className="home__header">
         <h1>
           A front-end developer with a profound <span></span> <span></span>{" "}
           transforming creativity into captivating <span></span> <span></span>
@@ -84,26 +84,32 @@ function Home() {
             </h2>
           </div>
         </div>
-      </div>
+      </header>
 
-      <h3>Work</h3>
-      <div className="home__selected-work">
-        {Object.keys(projectList).map(function (prop) {
-          return (
-            <WorkCard
-              title={projectList[prop].title}
-              thumbnail={projectList[prop].thumbnail}
-              id={projectList[prop].id}
-              description={projectList[prop].shortDesc}
-              pathname={projectList[prop].id}
-              key={projectList[prop].id}
-            />
-          );
-        })}
-        <span to="#" className="home__view-more" onClick={() => viewMoreWork()}>
-          View more
-        </span>
-      </div>
+      <main>
+        <h3>Work</h3>
+        <div className="home__selected-work">
+          {Object.keys(projectList).map(function (prop) {
+            return (
+              <WorkCard
+                title={projectList[prop].title}
+                thumbnail={projectList[prop].thumbnail}
+                id={projectList[prop].id}
+                description={projectList[prop].shortDesc}
+                pathname={projectList[prop].id}
+                key={projectList[prop].id}
+              />
+            );
+          })}
+          <span
+            to="#"
+            className="home__view-more"
+            onClick={() => viewMoreWork()}
+          >
+            View more
+          </span>
+        </div>
+      </main>
     </div>
   );
 }

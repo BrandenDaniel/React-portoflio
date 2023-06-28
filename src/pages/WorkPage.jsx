@@ -5,7 +5,7 @@ function WorkPage() {
   const projectList = { ...workJson };
 
   return (
-    <div className="work">
+    <main className="work">
       <div className="work__list">
         <h1>Work</h1>
 
@@ -22,7 +22,7 @@ function WorkPage() {
           );
         })}
       </div>
-    </div>
+    </main>
   );
 }
 
