@@ -27,7 +27,7 @@ function Home() {
     <div className="home">
       <header className="home__header">
         <h1>
-          A front-end developer with a profound <span></span> <span></span>{" "}
+          A front-end developer with a profound <span></span> <span></span>
           transforming creativity into captivating <span></span> <span></span>
         </h1>
 
@@ -38,7 +38,7 @@ function Home() {
             href={CV}
             target="_blank"
             rel="noreferrer"
-            className="resume-download"
+            className="resume-download underline-hover"
           >
             Download My CV.
           </a>
