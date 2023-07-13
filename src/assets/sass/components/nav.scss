@@ -60,18 +60,11 @@
       position: relative;
       line-height: 1;
 
-      &:hover {
-        &::after {
-          width: 95% !important;
-        }
-      }
-
       &.active {
         position: relative;
         color: $hot-pink;
         &::after {
           content: "";
-          width: 95%;
           height: 2px;
           position: absolute;
           left: 50%;
@@ -87,7 +80,7 @@
     > div {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 15px;
 
       .social-links {
         display: none;

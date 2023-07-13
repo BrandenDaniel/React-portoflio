@@ -93,15 +93,3 @@ body {
     }
   }
 }
-
-.resume-download {
-  color: var(--body-color);
-  text-decoration: none;
-  line-height: 1;
-  font-size: 14px !important;
-  font-weight: 500;
-
-  &:hover {
-    color: $hot-pink;
-  }
-}

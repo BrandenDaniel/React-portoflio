@@ -34,6 +34,9 @@ function Nav() {
 
         <div>
           <Socials />
+          <Link to="/react-projects" className="underline-hover">
+            React projects
+          </Link>
           <Link to="/work" className="underline-hover">
             Work
           </Link>

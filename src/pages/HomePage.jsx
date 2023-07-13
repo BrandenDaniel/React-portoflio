@@ -38,7 +38,7 @@ function Home() {
             href={CV}
             target="_blank"
             rel="noreferrer"
-            className="resume-download underline-hover"
+            className="resume-download"
           >
             Download My CV.
           </a>
