@@ -86,11 +86,11 @@
   &::after {
     content: "";
     width: 0;
-    height: 1.5px;
+    height: 2px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -5px;
+    bottom: -6px;
     background-color: $hot-pink;
     transition: 0.15s ease-in-out;
     display: block;
