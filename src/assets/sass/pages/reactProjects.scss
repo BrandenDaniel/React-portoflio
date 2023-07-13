@@ -19,6 +19,7 @@
     color: var(--body);
     text-decoration: none;
     gap: 25px;
+    animation: fade-up 0.5s;
 
     &:hover {
       .react-projects__icon span::after {
