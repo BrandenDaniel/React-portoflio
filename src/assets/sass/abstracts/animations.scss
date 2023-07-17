@@ -141,3 +141,33 @@
     transition: 0.2s ease;
   }
 }
+
+.roundOverlayHover {
+  &.active {
+    margin: 0 9px;
+    &::after {
+      height: calc(100% + 12px);
+      width: calc(100% + 18px);
+    }
+  }
+  position: relative;
+  &:hover {
+    color: #fff;
+
+    &::after {
+      height: calc(100% + 12px);
+      width: calc(100% + 18px);
+    }
+  }
+
+  &::after {
+    content: "";
+    @include pos-center;
+    background-color: $hot-pink;
+    height: 0px;
+    width: 0px;
+    z-index: -1;
+    transition: 0.2s ease-in-out;
+    border-radius: 99px;
+  }
+}

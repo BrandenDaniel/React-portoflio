@@ -1,6 +1,6 @@
 import "../assets/sass/components/nav.scss";
 import Socials from "./Socials";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 
 function Nav() {
@@ -28,18 +28,18 @@ function Nav() {
   return (
     <nav className="nav">
       <div className="nav__links">
-        <Link className="nav__logo underline-hover" to="/">
+        <NavLink className="nav__logo" to="/">
           BN<span>.</span>
-        </Link>
+        </NavLink>
 
         <div>
           <Socials />
-          <Link to="/react-projects" className="underline-hover">
+          <NavLink to="/react-projects" className="roundOverlayHover">
             React projects
-          </Link>
-          <Link to="/work" className="underline-hover">
+          </NavLink>
+          <NavLink to="/work" className="roundOverlayHover">
             Work
-          </Link>
+          </NavLink>
           <span id="themeToggle">
             <input
               type="checkbox"

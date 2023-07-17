@@ -183,7 +183,7 @@
 
         &::after {
           height: 34px;
-          width: 132px;
+          width: calc(100% + 20px);
         }
       }
 
