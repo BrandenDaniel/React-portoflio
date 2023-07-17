@@ -1,6 +1,6 @@
 {
-  "homepage": "https://brandendaniel.github.io",
-  "name": "brandendaniel.github.io",
+  "homepage": "https://branden.vercel.app",
+  "name": "branden.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
