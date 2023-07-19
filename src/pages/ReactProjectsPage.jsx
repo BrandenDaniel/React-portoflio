@@ -65,6 +65,7 @@ function ReactProjectsPage() {
             <span>Material UI</span>
             <span>Rapid API integration</span>
             <span>Axios</span>
+            <span>Sass</span>
           </div>
         </div>
       </a>
