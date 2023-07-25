@@ -26,7 +26,7 @@ import KaderBootCo from "./work-pages/kader-boot-co";
 import PerfectCotton from "./work-pages/perfect-cotton";
 import PrintStrategyManagement from "./work-pages/print-strategy-management";
 import MySalPack from "./work-pages/my-sal-pack";
-import MySalPackEmployer from "./work-pages/my-sal-pack-employer";
+// import MySalPackEmployer from "./work-pages/my-sal-pack-employer";
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
           <Route path="/react-projects" element={<ReactProjectsPage />} />
           <Route path="/work" element={<WorkPage />} />
           <Route path="/my-sal-pack" element={<MySalPack />} />
-          <Route path="/my-sal-pack-employer" element={<MySalPackEmployer />} />
+          {/* <Route path="/my-sal-pack-employer" element={<MySalPackEmployer />} /> */}
           <Route path="/my-blind-spots" element={<MyBlindSpots />} />
           <Route path="/boxti" element={<Boxti />} />
           <Route
