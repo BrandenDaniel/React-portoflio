@@ -34,12 +34,8 @@ function Nav() {
 
         <div>
           <Socials />
-          <NavLink to="/react-projects" className="roundOverlayHover">
-            React projects
-          </NavLink>
-          <NavLink to="/work" className="roundOverlayHover">
-            Work
-          </NavLink>
+          <NavLink to="/react-projects">React projects</NavLink>
+          <NavLink to="/work">Work</NavLink>
           <span id="themeToggle">
             <input
               type="checkbox"
