@@ -1,6 +1,6 @@
 {
   "my-sal-pack": {
-    "title": "MySalPack (employee portal)",
+    "title": "MySalPack",
     "thumbnail": "MSP-logo.svg",
     "id": "my-sal-pack",
     "role": "front-end developer",
@@ -27,7 +27,8 @@
       "my-sal-pack/msp-benefits-1-mobile.png",
       "my-sal-pack/msp-benefits-2-mobile.png",
       "my-sal-pack/msp-menu-mobile.png"
-    ]
+    ],
+    "stack": ["HTML", "CSS", "Sass", "JavaScript", "jQuery", "Blazor"]
   },
   "print-strategy-management": {
     "title": "Print Strategy Management",
@@ -35,7 +36,7 @@
     "id": "print-strategy-management",
     "role": "front-end developer",
     "year": "2019",
-    "shortDesc": "Custom website for a print client, showcasing products and enabling seamless online ordering.",
+    "shortDesc": "Website built for a print client, showcasing products and enabling seamless online ordering.",
     "longDesc": [
       "Our team developed and designed a bespoke website for a prominent hard copy printing client. The website showcases their extensive range of print products and provides a seamless user experience for customers to explore and order their desired items.",
       "We incorporated a user-friendly interface, allowing visitors to easily navigate through various product categories and access detailed information. The result is a visually stunning and functional website that enhances the client's online presence and facilitates efficient print product transactions."
@@ -45,7 +46,8 @@
       "print-strategy-management/psm-products.png",
       "print-strategy-management/psm-about.png"
     ],
-    "snapshotMobile": []
+    "snapshotMobile": [],
+    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
   "kader-boot-co": {
     "title": "Kader Boot Co.",
@@ -53,7 +55,7 @@
     "id": "kader-boot-co",
     "role": "front-end developer",
     "year": "2019",
-    "shortDesc": "Custom website showcasing premium leather boots with immersive design and seamless online shopping.",
+    "shortDesc": "Website showcasing premium leather boots with immersive design and seamless online shopping.",
     "longDesc": [
       "We created a bespoke WordPress website for a client specializing in premium leather boots. The website showcases their exquisite collection, featuring stunning product imagery and detailed descriptions.",
       "The site offers a unique seamless navigation of products and an intuitive interface, allowing customers to explore different boot styles and make purchases easily. Our custom design highlights the craftsmanship and luxury of the brand, providing an immersive online shopping experience for footwear enthusiasts."
@@ -63,7 +65,8 @@
       "kader-boot-co/kader-shop.png",
       "kader-boot-co/kader-about.png"
     ],
-    "snapshotMobile": []
+    "snapshotMobile": [],
+    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
   "annie-pirotta": {
     "title": "Annie Pirotta",
@@ -79,7 +82,8 @@
       "annie-pirotta/anniepirotta-home.png",
       "annie-pirotta/anniepirotta-sym.png"
     ],
-    "snapshotMobile": []
+    "snapshotMobile": [],
+    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
   "my-blind-spots": {
     "title": "My Blind Spots",
@@ -93,7 +97,8 @@
       "The website features a simple questionnaire designed to outline personality types, aiming to prevent bad habits and foster stronger relationships. It serves as a valuable tool for personal growth and improved interpersonal connections."
     ],
     "snapshot": ["my-blind-spots/myblindspots-screen.png"],
-    "snapshotMobile": []
+    "snapshotMobile": [],
+    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
   "boxti": {
     "title": "Boxti",
@@ -110,7 +115,8 @@
       "boxti/boxti-corporate.png",
       "boxti/boxti-about.png"
     ],
-    "snapshotMobile": []
+    "snapshotMobile": [],
+    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
   "all-west-engineering": {
     "title": "All West Engineering",
@@ -137,7 +143,8 @@
       "all-west-engineering/lms-admin-5.png",
       "all-west-engineering/lms-admin-6.png"
     ],
-    "snapshotMobile": []
+    "snapshotMobile": [],
+    "stack": ["HTML", "CSS", "JavaScript", "jQuery"]
   },
   "perfect-cotton": {
     "title": "Perfect Cotton",
@@ -154,6 +161,7 @@
       "perfect-cotton/perfectcotton-home.png",
       "perfect-cotton/perfectcotton-shop.png"
     ],
-    "snapshotMobile": []
+    "snapshotMobile": [],
+    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
   }
 }

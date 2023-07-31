@@ -11,18 +11,24 @@ function WorkPageDetail(props) {
     <div className="work-page">
       <div className="work-page__description">
         <h1>{project.title}</h1>
-        {project.longDesc.map(function (para) {
+        {project.longDesc.map((para) => {
           return <p key={para}>{para}</p>;
         })}
       </div>
       <div className="work-page__small-info">
         <span>
-          <span>Role: </span>
-          <span>{project.role}</span>
-        </span>
-        <span>
           <span>Year:</span>
-          <span>{project.year}</span>
+          <span className="work-page__small-info__pill">{project.year}</span>
+        </span>
+        <span className="work-page__small-info__stack">
+          <span>Stack:</span>
+          <div>
+            {project.stack.map((item) => {
+              return (
+                <span className="work-page__small-info__pill">{item}</span>
+              );
+            })}
+          </div>
         </span>
       </div>
       <Link to="/work" className="work-page__back circle-hover">
