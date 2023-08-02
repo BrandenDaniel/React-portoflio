@@ -9,6 +9,12 @@ function Nav() {
     setTheme((curr) => (curr === "dark" ? "light" : "dark"));
 
     document.querySelector("body").setAttribute("data-theme", theme);
+
+    if (theme == "dark") {
+      document.getElementById("root").classList.add("gradient-animation");
+    } else {
+      document.getElementById("root").classList.remove("gradient-animation");
+    }
   };
 
   const scrollFunction = () => {

@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 // Route
 import { Route, Routes } from "react-router-dom";
 
@@ -29,6 +31,10 @@ import MySalPack from "./work-pages/my-sal-pack";
 // import MySalPackEmployer from "./work-pages/my-sal-pack-employer";
 
 function App() {
+  useEffect(() => {
+    document.getElementById("root").classList.add("gradient-animation");
+  }, []);
+
   return (
     <>
       {/* <SolarSystem></SolarSystem> */}
