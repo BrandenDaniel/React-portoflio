@@ -2,14 +2,39 @@ import React from "react";
 import "../assets/sass/pages/reactProjects.scss";
 import YouTubeCloneIcon from "../assets/images/project-icons/YT-clone-icon.png";
 import CryptoverseIcon from "../assets/images/project-icons/cryptoverse-icon.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
+import GoldsGymIcon from "../assets/images/project-icons/golds-gym.png";
 
 function ReactProjectsPage() {
   return (
     <div className="react-projects">
       <h1>React projects</h1>
+      <a
+        className="react-projects__item"
+        href="https://fitness-app-branden.vercel.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="react-projects__icon react-projects__icon--light">
+          <span>
+            <img src={GoldsGymIcon} alt="Fitness app icon" />
+          </span>
+        </div>
 
+        <div>
+          <h2>Fitness App</h2>
+          <p>
+            Find the perfect exercise to go with your gym sessions. Search for
+            exercises and equipments that targets specific muscle groups.
+          </p>
+          <div class="react-projects__tech-stack">
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>Rapid API integration</span>
+            <span>Sass</span>
+            <span>Material UI</span>
+          </div>
+        </div>
+      </a>
       <a
         className="react-projects__item"
         href="https://youtube-clone-nine-henna.vercel.app/"
@@ -32,6 +57,7 @@ function ReactProjectsPage() {
           </p>
           <div class="react-projects__tech-stack">
             <span>React</span>
+            <span>JavaScript</span>
             <span>Material UI</span>
             <span>Rapid API integration</span>
             <span>Axios</span>
@@ -45,7 +71,7 @@ function ReactProjectsPage() {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="react-projects__icon">
+        <div className="react-projects__icon react-projects__icon--dark">
           <span>
             <img src={CryptoverseIcon} alt="Cryptoverse icon" />
           </span>
@@ -60,6 +86,7 @@ function ReactProjectsPage() {
           </p>
           <div class="react-projects__tech-stack">
             <span>React</span>
+            <span>JavaScript</span>
             <span>Redux</span>
             <span>Rapid API integration</span>
             <span>Axios</span>
