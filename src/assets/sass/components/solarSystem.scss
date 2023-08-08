@@ -13,8 +13,6 @@
   margin: auto;
   transform: scale(1.2);
 
-  display: none;
-
   &-forefront {
     background: var(--solar-system-forefront);
     position: fixed;
@@ -142,8 +140,8 @@
   &__saturn {
     animation-delay: -20s;
     &__plannet {
-      height: 25px;
-      width: 25px;
+      height: 40px;
+      width: 40px;
       background: rgb(255, 233, 188);
       background: linear-gradient(
         90deg,
@@ -181,8 +179,8 @@
   }
 
   &__uranus {
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     background: rgb(163, 236, 244);
     background: linear-gradient(
       90deg,
@@ -193,8 +191,8 @@
   }
 
   &__neptune {
-    height: 7px;
-    width: 7px;
+    height: 15px;
+    width: 15px;
     background: rgb(158, 166, 214);
     background: linear-gradient(
       90deg,
@@ -207,8 +205,8 @@
 
 @media (min-width: $sm) {
   .solar-system {
-    inset: 172px 0 auto 0;
-    transform: scale(1.2);
+    inset: 50% 0 auto 0;
+    transform: scale(1.2) translateY(-50%);
   }
 }
 

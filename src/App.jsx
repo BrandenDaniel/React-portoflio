@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-      {/* <SolarSystem></SolarSystem> */}
+      <SolarSystem></SolarSystem>
 
       <div className="container">
         <Nav />
