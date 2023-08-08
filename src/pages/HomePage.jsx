@@ -46,13 +46,14 @@ function Home() {
 
         <div className="home__profile__bio">
           <h2>
-            👋 Hey I'm Branden, a design-focused web developer based in
-            Melbourne. I'm currently working at SafeCode, where I craft
-            intuitive interfaces for a user base of over 100,000 individuals.
+            👋 Hey I'm Branden, a design-focused developer based in Melbourne.
+            I'm currently working at SafeCode, where I craft intuitive
+            interfaces for a user base of over 100,000 individuals.
             <div
               className="home__profile__read-more"
               onClick={() => showMoreBio()}
             >
+              {/* Cosmetics */}
               <span></span>
               <span></span>
               <span></span>
@@ -62,25 +63,17 @@ function Home() {
           <div>
             <h2>
               I've been passionately immersed in the world of front-end
-              development since early 2019, constantly striving to expand my
-              skills and stay up to date with the latest industry trends.
-              Throughout my journey, I've had the privilege to collaborate with
-              a diverse range of clients, including both corporations and
-              smaller creative digital agencies.
+              development since early 2019. Throughout my journey, I've had the
+              privilege to collaborate with a diverse range of clients,
+              including both corporations and smaller creative digital agencies.
             </h2>
 
             <h2>
-              CSS is my trusted companion in this realm. I thrive on the process
-              of transforming intricate designs into clean and structured
-              stylesheets. From tackling complex layouts to meticulously
-              bringing a designer's vision to life, I find joy in the art of
-              crafting visually appealing and user-friendly web experiences.
-            </h2>
-
-            <h2>
-              After taking a transformative break to explore an alternative
-              career path, I've been steered right back to where I belong -
-              making fun, intuitive, and gorgeous websites.
+              I thrive on the process of meticulously transforming intricate
+              designs into clean and structured stylesheets. At the moment, I'm
+              actively searching for roles within the React domain. If you find
+              my work appealing, I'd be thrilled to chat and explore
+              opportunities!
             </h2>
           </div>
         </div>
