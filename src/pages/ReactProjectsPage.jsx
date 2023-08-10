@@ -8,7 +8,7 @@ function ReactProjectsPage() {
   return (
     <div className="react-projects">
       <h1>React projects</h1>
-      <a
+      {/* <a
         className="react-projects__item"
         href="https://fitness-app-branden.vercel.app/"
         target="_blank"
@@ -34,7 +34,7 @@ function ReactProjectsPage() {
             <span>Material UI</span>
           </div>
         </div>
-      </a>
+      </a> */}
       <a
         className="react-projects__item"
         href="https://youtube-clone-nine-henna.vercel.app/"
