@@ -10,7 +10,7 @@ function Nav() {
 
     document.querySelector("body").setAttribute("data-theme", theme);
 
-    if (theme == "dark") {
+    if (theme === "dark") {
       document.getElementById("root").classList.add("gradient-animation");
     } else {
       document.getElementById("root").classList.remove("gradient-animation");

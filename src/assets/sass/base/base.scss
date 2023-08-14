@@ -17,6 +17,7 @@
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0.35) 100%
   );
+  --scroll-bar: rgba(22, 30, 64, 0.4);
 }
 
 [data-theme="dark"] {
@@ -32,6 +33,7 @@
     rgba(22, 30, 64, 1) 0%,
     rgba(22, 30, 64, 0.35) 100%
   );
+  --scroll-bar: rgba(255, 255, 255, 0.2);
 }
 
 * {
@@ -42,6 +44,25 @@
   &::before,
   &::after {
     margin: 0;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background: transparent;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--scroll-bar);
+    border-radius: 10px;
+    border: 2px solid var(--body-color-inverse);
   }
 }
 
@@ -89,4 +110,8 @@ body {
       display: flex;
     }
   }
+}
+
+.dragscroll:hover {
+  cursor: pointer;
 }

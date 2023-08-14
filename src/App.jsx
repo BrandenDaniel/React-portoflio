@@ -13,6 +13,7 @@ import "./assets/sass/components/solarSystem.scss";
 import Nav from "./component/Nav";
 import ScrollToTop from "./component/ScrollToTop";
 import SolarSystem from "./component/SolarSystem";
+import Footer from "./component/Footer";
 
 // Main pages
 import HomePage from "./pages/HomePage";
@@ -28,7 +29,6 @@ import KaderBootCo from "./work-pages/kader-boot-co";
 import PerfectCotton from "./work-pages/perfect-cotton";
 import PrintStrategyManagement from "./work-pages/print-strategy-management";
 import MySalPack from "./work-pages/my-sal-pack";
-// import MySalPackEmployer from "./work-pages/my-sal-pack-employer";
 
 function App() {
   useEffect(() => {
@@ -62,6 +62,7 @@ function App() {
             element={<PrintStrategyManagement />}
           />
         </Routes>
+        <Footer />
       </div>
     </>
   );

@@ -159,7 +159,7 @@
     font-size: 1.4rem;
     position: relative;
     margin-bottom: 7px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 0 20px 0;
     color: var(--body-color);
     animation: fade-up 1.5s;
@@ -240,16 +240,29 @@
   }
 
   &__view-more {
-    margin: 20px auto;
+    margin: 10px auto 20px auto;
     color: var(--body-color);
-    text-align: center;
-    font-size: 1;
+    font-size: 1rem;
     line-height: 1;
-    font-weight: 400;
+    font-weight: 500;
+    text-decoration: underline;
 
     &:hover {
       cursor: pointer;
       color: $hot-pink;
+    }
+  }
+
+  &__gh-calender {
+    margin-top: 20px;
+
+    > div {
+      overflow: auto;
+    }
+
+    img {
+      display: block;
+      width: 700px;
     }
   }
 }
@@ -408,6 +421,13 @@
             font-size: 15px;
           }
         }
+      }
+    }
+
+    &__gh-calender {
+      margin-top: 25px;
+      img {
+        width: 800px;
       }
     }
   }
