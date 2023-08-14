@@ -3,7 +3,7 @@ import WorkCard from "../component/WorkCard";
 import workJson from "../work-data/data.json";
 import Socials from "../component/Socials";
 import CV from "../assets/docs/CV.pdf";
-import "../utils/dragscroll.js";
+// import "../utils/dragscroll.js";
 
 function Home() {
   const projectList = { ...workJson };
@@ -100,7 +100,7 @@ function Home() {
 
       <div className="home__gh-calender">
         <h3>Github contribution</h3>
-        <div className="dragscroll">
+        <div className="">
           <img
             src="http://ghchart.rshah.org/dd2476/brandendaniel"
             alt="Branden's Github chart"
