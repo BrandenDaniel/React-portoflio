@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <a href="#">
+      <a href="#" rel="noopener noreferrer">
         <img src={Logo} alt="Logo" />
       </a>
       © {currentYear} Branden Ng
