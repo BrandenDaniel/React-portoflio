@@ -40,6 +40,7 @@
   font-family: "Neue Haas Unica", sans-serif;
   margin: 0;
   box-sizing: border-box !important;
+  scroll-behavior: smooth;
 
   &::before,
   &::after {

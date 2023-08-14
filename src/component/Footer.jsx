@@ -6,7 +6,10 @@ const Footer = () => {
 
   return (
     <footer>
-      <img src={Logo} alt="Logo" />© {currentYear} Branden Ng
+      <a href="#">
+        <img src={Logo} alt="Logo" />
+      </a>
+      © {currentYear} Branden Ng
     </footer>
   );
 };
