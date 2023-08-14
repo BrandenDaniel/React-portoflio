@@ -1,5 +1,5 @@
 import WorkCard from "../component/WorkCard";
-import workJson from "../work-data/data.json";
+import workJson from "../data/work-data.json";
 
 function WorkPage() {
   const projectList = { ...workJson };

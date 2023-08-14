@@ -1,0 +1,32 @@
+{
+  "reactProjects": [
+    {
+      "icon": "YT-clone-icon.png",
+      "name": "YouTube clone",
+      "URL": "https://youtube-clone-nine-henna.vercel.app/",
+      "desc": "YouTube clone app with searchable videos and channels. The app comprises a video and channel feed, alongside a sidebar nav with preset topics/categories.",
+      "techStack": [
+        "React",
+        "JavaScript",
+        "Material UI",
+        "Rapid API integration",
+        "Axios"
+      ]
+    },
+    {
+      "icon": "cryptoverse-icon.png",
+      "name": "Cryptoverse",
+      "URL": "https://crypto-app-one-sepia.vercel.app/",
+      "desc": "Crypto app showcasing the top 100 cryptocurrencies with current prices, news, market cap, and other statistics.",
+      "techStack": [
+        "React",
+        "JavaScript",
+        "Sass",
+        "Ant Design",
+        "Rapid API integration",
+        "Axios",
+        "Redux"
+      ]
+    }
+  ]
+}
