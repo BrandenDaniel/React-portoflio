@@ -4,8 +4,10 @@ footer {
   gap: 5px;
   padding-top: 30px;
   justify-content: space-between;
+  line-height: 1;
 
   img {
     width: 35px;
+    display: block;
   }
 }

@@ -9,7 +9,7 @@ const Footer = () => {
       <a href="#" rel="noopener noreferrer">
         <img src={Logo} alt="Logo" />
       </a>
-      © {currentYear} Branden Ng
+      <span>© {currentYear} Branden Ng</span>
     </footer>
   );
 };
