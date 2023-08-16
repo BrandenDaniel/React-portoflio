@@ -1,17 +1,17 @@
-const ReactProjects = ({ data }) => {
+const Projects = ({ data }) => {
   return (
-    <div className="react-projects">
-      <h1>React projects</h1>
+    <div className="projects">
+      <h1>Projects</h1>
       {data.map((project) => (
         <>
           <a
-            className="react-projects__item"
+            className="projects__item"
             href={project.URL}
             target="_blank"
             rel="noreferrer"
           >
             <div
-              className={`react-projects__icon react-projects__icon--${project?.iconTheme}`}
+              className={`projects__icon projects__icon--${project?.iconTheme}`}
             >
               <span>
                 <img
@@ -23,7 +23,7 @@ const ReactProjects = ({ data }) => {
             <div>
               <h2>{project.name}</h2>
               <p>{project.desc}</p>
-              <div class="react-projects__tech-stack">
+              <div class="projects__tech-stack">
                 {project.techStack.map((item) => (
                   <span>{item}</span>
                 ))}
@@ -36,4 +36,4 @@ const ReactProjects = ({ data }) => {
   );
 };
 
-export default ReactProjects;
+export default Projects;

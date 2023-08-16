@@ -86,7 +86,7 @@
       font-size: 1.1rem;
       line-height: 1.5;
       font-weight: 400;
-      animation: fade-up 1s;
+      animation: fade-up 0.5s;
       color: var(--body-color);
 
       .home__profile__read-more {
@@ -162,13 +162,13 @@
     font-weight: 500;
     margin: 0 0 20px 0;
     color: var(--body-color);
-    animation: fade-up 1.5s;
+    animation: fade-up 0.5s;
   }
 
   &__external-links {
     @include flex-between;
     z-index: 0;
-    animation: fade-up 0.75s;
+    animation: fade-up 0.5s;
 
     .resume-download {
       color: var(--body-color);
@@ -204,7 +204,7 @@
   &__list {
     display: flex;
     flex-direction: column;
-    animation: fade-up 1.75s;
+    animation: fade-up 0.5s;
 
     .selected-work {
       display: grid;
