@@ -40,7 +40,7 @@ function Nav() {
 
         <div>
           <Socials />
-          <NavLink to="/react-projects">React projects</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/work">Work</NavLink>
           <span id="themeToggle">
             <input

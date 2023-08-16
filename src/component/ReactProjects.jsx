@@ -1,12 +1,8 @@
-import "../assets/sass/pages/reactProjects.scss";
-import ReactProjectData from "../data/react-proj-data.json";
-
-function ReactProjectsPage() {
-  let reactProjectList = [...ReactProjectData.reactProjects];
+const ReactProjects = ({ data }) => {
   return (
     <div className="react-projects">
       <h1>React projects</h1>
-      {reactProjectList.map((project) => (
+      {data.map((project) => (
         <>
           <a
             className="react-projects__item"
@@ -14,7 +10,9 @@ function ReactProjectsPage() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="react-projects__icon">
+            <div
+              className={`react-projects__icon react-projects__icon--${project?.iconTheme}`}
+            >
               <span>
                 <img
                   src={require(`../assets/images/project-icons/${project.icon}`)}
@@ -36,6 +34,6 @@ function ReactProjectsPage() {
       ))}
     </div>
   );
-}
+};
 
-export default ReactProjectsPage;
+export default ReactProjects;

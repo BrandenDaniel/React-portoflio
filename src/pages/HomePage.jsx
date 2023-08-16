@@ -102,7 +102,7 @@ function Home() {
         <h3>Github contribution</h3>
         <div className="">
           <img
-            src="http://ghchart.rshah.org/dd2476/brandendaniel"
+            src="http://ghchart.rshah.org/161e40/brandendaniel"
             alt="Branden's Github chart"
           />
         </div>

@@ -1,0 +1,12 @@
+{
+  "otherProjects": [
+    {
+      "icon": "splitter-logo.svg",
+      "name": "Splitter",
+      "URL": "https://frontend-mentor-tip-calculator-app-zeta.vercel.app/",
+      "desc": "Bill tipper and splitter - a minimally styled utility app with some JS functionality/calculations.",
+      "techStack": ["HTML", "Vanilla JavaScript", "CSS", "BEM"],
+      "iconTheme": "light"
+    }
+  ]
+}
