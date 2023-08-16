@@ -3,6 +3,7 @@ import WorkCard from "../component/WorkCard";
 import workJson from "../data/work-data.json";
 import Socials from "../component/Socials";
 import CV from "../assets/docs/CV.pdf";
+import { Link } from "react-router-dom";
 // import "../utils/dragscroll.js";
 
 function Home() {
@@ -93,9 +94,11 @@ function Home() {
             />
           );
         })}
-        <span to="#" className="home__view-more" onClick={() => viewMoreWork()}>
-          view more
-        </span>
+
+        <div className="home__view-more">
+          <span onClick={() => viewMoreWork()}>view more</span> /
+          <Link to="/projects"> other projects</Link>
+        </div>
       </div>
 
       <div className="home__gh-calender">
