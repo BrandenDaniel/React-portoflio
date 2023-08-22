@@ -1,6 +1,6 @@
 import "../assets/sass/components/nav.scss";
 import Socials from "./Socials";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import React, { useState } from "react";
 
 function Nav() {
@@ -34,9 +34,9 @@ function Nav() {
   return (
     <nav className="nav">
       <div className="nav__links">
-        <NavLink className="nav__logo" to="/">
+        <Link className="nav__logo" to="/">
           BN<span>.</span>
-        </NavLink>
+        </Link>
 
         <div>
           <Socials />
