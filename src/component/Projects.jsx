@@ -5,12 +5,10 @@ const Projects = ({ data }) => {
       <div className="projects__item">
         {data.map((project) => (
           <a href={project.URL} target="_blank" rel="noreferrer">
-            <div>
-              <img
-                src={require(`../assets/images/project-snapshots/${project.previewGif}`)}
-                alt={`${project.name} icon`}
-              />
-            </div>
+            <img
+              src={require(`../assets/images/project-snapshots/${project.previewGif}`)}
+              alt={`${project.name} icon`}
+            />
             <div>
               <div>
                 <h2>{project.name}</h2>
