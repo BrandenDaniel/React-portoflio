@@ -1,18 +1,24 @@
 {
   "projects": [
     {
-      "icon": "splitter-logo.svg",
+      "previewGif": "coffeeroasters-preview.gif",
+      "name": "Coffeeroasters",
+      "URL": "https://coffee-roasters-sigma.vercel.app/plan",
+      "desc": "Coffeeroasters is a 3 page fully functional coffee subscription website. Featuring dynamic and conditional data handling.",
+      "techStack": ["React", "Next.JS", "JavaScript", "SASS/SCSS"]
+    },
+    {
+      "previewGif": "splitter-preview.gif",
       "name": "Splitter",
       "URL": "https://frontend-mentor-tip-calculator-app-zeta.vercel.app/",
       "desc": "Bill tipper and splitter - a minimally styled utility app with some JS functionality/calculations.",
-      "techStack": ["HTML", "Vanilla JavaScript", "CSS", "BEM"],
-      "iconTheme": "light"
+      "techStack": ["HTML", "JavaScript", "CSS", "BEM"]
     },
     {
-      "icon": "YT-clone-icon.png",
+      "previewGif": "youtube-clone-preview.png",
       "name": "YouTube clone",
       "URL": "https://youtube-clone-nine-henna.vercel.app/",
-      "desc": "YouTube clone app with searchable videos and channels. The app comprises a video and channel feed, alongside a sidebar nav with preset topics/categories.",
+      "desc": "YouTube clone app with searchable videos and channels.",
       "techStack": [
         "React",
         "JavaScript",
@@ -22,20 +28,17 @@
       ]
     },
     {
-      "icon": "cryptoverse-icon.png",
+      "previewGif": "cryptoverse-preview.gif",
       "name": "Cryptoverse",
       "URL": "https://crypto-app-one-sepia.vercel.app/",
-      "desc": "Crypto app showcasing the top 100 cryptocurrencies with current prices, news, market cap, and other statistics.",
+      "desc": "Crypto app showcasing top cryptocurrencies with current prices, news, market cap, and other statistics.",
       "techStack": [
         "React",
         "JavaScript",
-        "Sass",
+        "SASS/SCSS",
         "Ant Design",
-        "Rapid API integration",
-        "Axios",
-        "Redux"
-      ],
-      "iconTheme": "dark"
+        "Rapid API integration"
+      ]
     }
   ]
 }

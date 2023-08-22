@@ -2,27 +2,20 @@ const Projects = ({ data }) => {
   return (
     <div className="projects">
       <h1>Projects</h1>
-      {data.map((project) => (
-        <>
-          <a
-            className="projects__item"
-            href={project.URL}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div
-              className={`projects__icon projects__icon--${project?.iconTheme}`}
-            >
-              <span>
-                <img
-                  src={require(`../assets/images/project-icons/${project.icon}`)}
-                  alt={`${project.name} icon`}
-                />
-              </span>
+      <div className="projects__item">
+        {data.map((project) => (
+          <a href={project.URL} target="_blank" rel="noreferrer">
+            <div>
+              <img
+                src={require(`../assets/images/project-snapshots/${project.previewGif}`)}
+                alt={`${project.name} icon`}
+              />
             </div>
             <div>
-              <h2>{project.name}</h2>
-              <p>{project.desc}</p>
+              <div>
+                <h2>{project.name}</h2>
+                <p>{project.desc}</p>
+              </div>
               <div class="projects__tech-stack">
                 {project.techStack.map((item) => (
                   <span>{item}</span>
@@ -30,8 +23,8 @@ const Projects = ({ data }) => {
               </div>
             </div>
           </a>
-        </>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

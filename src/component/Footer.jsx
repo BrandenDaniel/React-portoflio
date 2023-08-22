@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <a href="#" rel="noopener noreferrer">
+      <a href="/" rel="noopener noreferrer">
         <img src={Logo} alt="Logo" />
       </a>
       <span>Branden Ng © {currentDate.getFullYear()}</span>
