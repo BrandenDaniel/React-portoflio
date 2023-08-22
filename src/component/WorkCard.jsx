@@ -8,6 +8,7 @@ const WorkCard = (props) => {
         <img
           src={require(`../assets/images/work-logos/${props.thumbnail}`)}
           alt={props.title}
+          loading="lazy"
         />
       </div>
       <Link to={`/${props.pathname}`} className="selected-work__content">

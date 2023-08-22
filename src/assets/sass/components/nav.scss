@@ -19,10 +19,6 @@
     box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
     border: 1px solid rgb(255, 255, 255, 0.2);
 
-    a {
-      color: #fff !important;
-    }
-
     #themeToggle {
       border: 1px solid rgba(255, 255, 255, 0.5) !important;
 
@@ -55,6 +51,11 @@
       font-size: 1rem;
       position: relative;
       line-height: 1;
+
+      &.active {
+        font-weight: 500;
+        color: $hot-pink;
+      }
 
       &:hover {
         color: $hot-pink;

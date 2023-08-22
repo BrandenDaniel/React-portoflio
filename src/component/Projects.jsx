@@ -7,7 +7,8 @@ const Projects = ({ data }) => {
           <a href={project.URL} target="_blank" rel="noreferrer">
             <img
               src={require(`../assets/images/project-snapshots/${project.previewGif}`)}
-              alt={`${project.name} icon`}
+              alt={`${project.name} preview gif`}
+              loading="lazy"
             />
             <div>
               <div>
