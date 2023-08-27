@@ -1,18 +1,41 @@
 {
   "projects": [
     {
+      "previewGif": "multi-step-form-preview.gif",
+      "name": "Multi-step form",
+      "URL": "https://multi-step-form-murex-two.vercel.app/",
+      "desc": "Multi-step form demo with input validation and state management via state lifting",
+      "techStack": [
+        "React",
+        "Next.JS",
+        "TypeScript",
+        "JavaScript",
+        "SASS/SCSS",
+        "BEM",
+        "Form Validation",
+        "Responsive"
+      ]
+    },
+    {
       "previewGif": "coffeeroasters-preview.gif",
       "name": "Coffeeroasters",
       "URL": "https://coffee-roasters-sigma.vercel.app/plan",
       "desc": "Coffeeroasters is a 3 page fully functional coffee subscription website. Featuring dynamic and conditional data handling.",
-      "techStack": ["React", "Next.JS", "JavaScript", "SASS/SCSS"]
+      "techStack": [
+        "React",
+        "Next.JS",
+        "JavaScript",
+        "SASS/SCSS",
+        "BEM",
+        "Responsive"
+      ]
     },
     {
       "previewGif": "splitter-preview.gif",
       "name": "Splitter",
       "URL": "https://frontend-mentor-tip-calculator-app-zeta.vercel.app/",
       "desc": "Bill tipper and splitter - a minimally styled utility app with some JS functionality/calculations.",
-      "techStack": ["HTML", "JavaScript", "CSS", "BEM"]
+      "techStack": ["HTML", "JavaScript", "CSS", "BEM", "Responsive"]
     },
     {
       "previewGif": "youtube-clone-preview.png",
